@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
+    <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="first commit&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -43,10 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="hello.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/hello.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="0.52641165" vertical-offset="238" max-vertical-offset="816">
+            <state line="16" column="25" selection-start="300" selection-end="300" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="816">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
               <folding />
             </state>
           </provider>
@@ -63,6 +73,13 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/readme.md" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -204,7 +221,11 @@
       <created>1391434735602</created>
       <updated>1391434735602</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit&#10;">
+      <created>1391434751359</created>
+      <updated>1391434751359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -288,7 +309,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/hello.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="31" selection-start="517" selection-end="517" vertical-scroll-proportion="0.52641165" vertical-offset="238" max-vertical-offset="816">
+        <state line="16" column="25" selection-start="300" selection-end="300" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="816">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="3" selection-start="23" selection-end="23" vertical-scroll-proportion="0.030195381" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>
