@@ -56,9 +56,14 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="10" selection-start="604" selection-end="604" vertical-scroll-proportion="0.6352313" vertical-offset="0" max-vertical-offset="562">
+            <state line="47" column="14" selection-start="1987" selection-end="1987" vertical-scroll-proportion="1.4217082" vertical-offset="0" max-vertical-offset="1207">
               <folding>
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
@@ -331,7 +336,11 @@
       <created>1391437837414</created>
       <updated>1391437837414</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Index template changes">
+      <created>1391438418541</created>
+      <updated>1391438418541</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -379,7 +388,8 @@
     <MESSAGE value="Initial push&#10;Added bootstrap&#10;&#10;Made asd header." />
     <MESSAGE value="Fixed routes, forwarded to controller" />
     <MESSAGE value="Fixed index template" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed index template" />
+    <MESSAGE value="Index template changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Index template changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -443,9 +453,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="10" selection-start="604" selection-end="604" vertical-scroll-proportion="0.6352313" vertical-offset="0" max-vertical-offset="562">
+        <state line="47" column="14" selection-start="1987" selection-end="1987" vertical-scroll-proportion="1.4217082" vertical-offset="0" max-vertical-offset="1207">
           <folding>
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
