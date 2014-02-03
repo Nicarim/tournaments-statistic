@@ -56,8 +56,13 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="58" selection-end="58" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562">
-              <folding />
+            <state line="21" column="10" selection-start="604" selection-end="604" vertical-scroll-proportion="0.6352313" vertical-offset="0" max-vertical-offset="562">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -322,7 +327,11 @@
       <created>1391437800285</created>
       <updated>1391437800285</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed index template">
+      <created>1391437837414</created>
+      <updated>1391437837414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -369,7 +378,8 @@
     <MESSAGE value="Comitted first push, yey" />
     <MESSAGE value="Initial push&#10;Added bootstrap&#10;&#10;Made asd header." />
     <MESSAGE value="Fixed routes, forwarded to controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed routes, forwarded to controller" />
+    <MESSAGE value="Fixed index template" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed index template" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -433,8 +443,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="58" selection-end="58" vertical-scroll-proportion="0.12099644" vertical-offset="0" max-vertical-offset="562">
-          <folding />
+        <state line="21" column="10" selection-start="604" selection-end="604" vertical-scroll-proportion="0.6352313" vertical-offset="0" max-vertical-offset="562">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
