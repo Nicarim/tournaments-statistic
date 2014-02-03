@@ -1,0 +1,18 @@
+.custom-table{
+    border-top: 1px solid #000100;
+    border-left: 1px solid #000100;
+    border-right: 1px solid #000100;
+    border-bottom: 1px solid #000100;
+}
+.custom-table tr{
+    border-top: 1px solid #000100;
+    border-left: 1px solid #000100;
+    border-right: 1px solid #000100;
+    border-bottom: 1px solid #000100;
+}
+.custom-table th{
+     border-top: 1px solid #000100;
+     border-left: 1px solid #000100;
+     border-right: 1px solid #000100;
+     border-bottom: 1px solid #000100;
+ }

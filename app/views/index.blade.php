@@ -5,47 +5,54 @@
     <div class="container">
         <h2>Group A</h2>
     </div>
-    <div class="container text-center">
-        <div class="row center-block" style="background-color: #888888">
-            <div class="col-md-2">Team</div>
-            <div class="col-md-2">Played Matches</div>
-            <div class="col-md-2">Matches Won</div>
-            <div class="col-md-2">Game Won</div>
-            <div class="col-md-2">Matches Lose</div>
-            <div class="col-md-2">Game Lose</div>
-        </div>
-        <div class="row center-block" style="background-color: #adadad">
-            <div class="col-md-2">Taiwan</div>
-            <div class="col-md-2">1</div>
-            <div class="col-md-2">3</div>
-            <div class="col-md-2">2</div>
-            <div class="col-md-2">8</div>
-            <div class="col-md-2">3</div>
-        </div>
-        <div class="row center-block" style="background-color: #adadad">
-            <div class="col-md-2">Taiwan</div>
-            <div class="col-md-2">1</div>
-            <div class="col-md-2">3</div>
-            <div class="col-md-2">2</div>
-            <div class="col-md-2">8</div>
-            <div class="col-md-2">3</div>
-        </div>
-        <div class="row center-block" style="background-color: #adadad">
-            <div class="col-md-2">Taiwan</div>
-            <div class="col-md-2">1</div>
-            <div class="col-md-2">3</div>
-            <div class="col-md-2">2</div>
-            <div class="col-md-2">8</div>
-            <div class="col-md-2">3</div>
-        </div>
-        <div class="row center-block" style="background-color: #adadad">
-            <div class="col-md-2">Taiwan</div>
-            <div class="col-md-2">1</div>
-            <div class="col-md-2">3</div>
-            <div class="col-md-2">2</div>
-            <div class="col-md-2">8</div>
-            <div class="col-md-2">3</div>
-        </div>
+    <div class="container">
+        <table class="table custom-table">
+            <tr style="background-color: #e88200;">
+                <th>Team</th>
+                <th>Played Matches</th>
+                <th>Matches Won</th>
+                <th>Game Won</th>
+                <th>Matches Lose</th>
+                <th>Game Lose</th>
+                <th>SDR</th>
+            </tr>
+            <tr style="background-color: #dbdbdb">
+                <td>Taiwan</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>8</td>
+                <td>3</td>
+                <td>2,5</td>
+            </tr>
+            <tr style="background-color: #dbdbdb">
+                <td>Taiwan</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>8</td>
+                <td>3</td>
+                <td>2,5</td>
+            </tr>
+            <tr style="background-color: #a4a4a4">
+                <td>Taiwan</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>8</td>
+                <td>3</td>
+                <td>2,5</td>
+            </tr>
+            <tr style="background-color: #a4a4a4">
+                <td>Taiwan</td>
+                <td>1</td>
+                <td>3</td>
+                <td>2</td>
+                <td>8</td>
+                <td>3</td>
+                <td>2,5</td>
+            </tr>
+        </table>
     </div>
 </div>
 <div class="jumbotron" style="height: 100%; background-color: #80ff80">
