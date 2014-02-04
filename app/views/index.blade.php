@@ -1,13 +1,13 @@
 @extends('master')
 
 @section('content')
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
-        <ul class="nav navbar-nav">
-            <li><a href="#gA">Group A</a></li>
-            <li><a href="#gB">Group B</a></li>
-            <li><a href="#gC">Group C</a></li>
-            <li><a href="#gD">Group D</a></li>
+        <ul class="nav navbar-nav text-center">
+            <li style="width:200px"><a href="#gA">Group A</a></li>
+            <li style="width:200px"><a href="#gB">Group B</a></li>
+            <li style="width:200px"><a href="#gC">Group C</a></li>
+            <li style="width:200px"><a href="#gD">Group D</a></li>
         </ul>
     </div>
 </nav>
