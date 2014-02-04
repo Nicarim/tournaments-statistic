@@ -5,6 +5,6 @@
     <script src="/js/jquery-2.0.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootstrap.datepicker.js"></script>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/group.css" />
 </head>
 @yield ('content')
