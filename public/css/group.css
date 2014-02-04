@@ -46,3 +46,9 @@
     font-weight: bold;
     background-color: #B6D7A8;
 }
+.table-bordered>tbody>tr>td{
+    border: 1px solid #000000;
+}
+.table-bordered>tbody>tr>th{
+    border: 1px solid #000000;
+}

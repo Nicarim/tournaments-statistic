@@ -1,8 +1,17 @@
 @extends('master')
 
 @section('content')
-
-<div class="jumbotron a" style="height: 100%;">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li><a href="#gA">Group A</a></li>
+            <li><a href="#gB">Group B</a></li>
+            <li><a href="#gC">Group C</a></li>
+            <li><a href="#gD">Group D</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="gA" class="jumbotron a" style="height: 100%;">
     <div class="container">
         <h2>Group A</h2>
     </div>
@@ -56,7 +65,7 @@
         </table>
     </div>
 </div>
-<div class="jumbotron b" style="height: 100%;">
+<div id="gB" class="jumbotron b" style="height: 100%;">
     <div class="container">
         <h2>Group B</h2>
     </div>
@@ -110,7 +119,7 @@
         </table>
     </div>
 </div>
-<div class="jumbotron c" style="height: 100%;">
+<div id="gC"  class="jumbotron c" style="height: 100%;">
     <div class="container">
         <h2>Group C</h2>
     </div>
@@ -164,7 +173,7 @@
         </table>
     </div>
 </div>
-<div class="jumbotron d" style="height: 100%;">
+<div id="gD"  class="jumbotron d" style="height: 100%;">
     <div class="container">
         <h2>Group D</h2>
     </div>
