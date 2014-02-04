@@ -1,0 +1,48 @@
+.pass {
+    background-color: #dbdbdb;
+}
+.pass:hover{
+    background-color: rgba(219, 219, 219, 0.65);
+}
+.drop {
+    background-color: #808080;
+}
+.drop:hover{
+    background-color: rgba(128, 128, 128, 0.65);
+}
+
+.a {
+    background-color: #FFF2CC;
+}
+
+.a.header {
+    font-weight: bold;
+    background-color: #FFE599;
+}
+
+.b {
+    background-color: #F4CCCC;
+}
+
+.b.header {
+    font-weight: bold;
+    background-color: #EA9999;
+}
+
+.c {
+    background-color: #CFE2F3;
+}
+
+.c.header {
+    font-weight: bold;
+    background-color: #9FC5E8;
+}
+
+.d {
+    background-color: #D9EAD3; 
+}
+
+.d.header {
+    font-weight: bold;
+    background-color: #B6D7A8;
+}
