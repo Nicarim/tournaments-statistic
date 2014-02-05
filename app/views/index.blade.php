@@ -57,10 +57,10 @@
         </div>
         <div class="container small" style="width:40%; background-color: #d0d0d0">
             <small>
-                <ul class="list-unstyled" style="padding:-10px;">
-                    <li>A vs B - A won SDR +2,05 for winner</li>
-                    <li>A vs B - A won SDR +2,05 for winner</li>
-                    <li>A vs B - A won SDR +2,05 for winner</li>
+                <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 12px;">
+                    <li><a href="#"><span style="color:green;">Brazil</span> vs <span style="color:red;">Japan</span></a> - SDR 2,05 </li>
+                    <li><a href="#"><span style="color:green;">Malaysia</span> vs <span style="color:red;">Germany</span></a> - SDR 3,33 </li>
+
                 </ul>
             </small>
         </div>
