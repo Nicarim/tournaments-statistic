@@ -9,6 +9,10 @@
                 <input type="text" class="form-control" id="chart-name" name="matches" placeholder="123,456 etc.">
             </div>
             <div class="form-group">
+                <label for="chart-name">Ignored Plays:</label>
+                <input type="text" class="form-control" id="chart-name" name="ignored_matches" placeholder="Index number of match, starting from 0">
+            </div>
+            <div class="form-group">
                 <label for="beatmaps">Password:</label>
                 <input type="text" class="form-control" id="beatmaps" name="password" placeholder="You think i'm going to give you a hint?">
             <div class="form-group">

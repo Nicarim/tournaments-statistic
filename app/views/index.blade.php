@@ -21,8 +21,8 @@
                 <th>Team</th>
                 <th>Played Matches</th>
                 <th>Matches Won</th>
-                <th>Maps Won</th>
-                <th>Matches Lost</th>
+                <th>Matches lost</th>
+                <th>Maps won</th>
                 <th>Maps Lost</th>
                 <th>SDR</th>
             </tr>
@@ -56,13 +56,11 @@
             <p>Match history:</p>
         </div>
         <div class="container small" style="width:40%; background-color: #d0d0d0">
-            <small>
-                <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 12px;">
+                <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 15px;">
                     <li><a href="#"><span style="color:green;">Brazil</span> vs <span style="color:red;">Japan</span></a> - SDR 2,05 </li>
                     <li><a href="#"><span style="color:green;">Malaysia</span> vs <span style="color:red;">Germany</span></a> - SDR 3,33 </li>
 
                 </ul>
-            </small>
         </div>
     </div>
 </div>
