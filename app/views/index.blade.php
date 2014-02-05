@@ -22,8 +22,8 @@
                 <th>Played Matches</th>
                 <th>Matches Won</th>
                 <th>Maps Won</th>
-                <th>Matches Lose</th>
-                <th>Maps Lose</th>
+                <th>Matches Lost</th>
+                <th>Maps Lost</th>
                 <th>SDR</th>
             </tr>
             @foreach ($group->teams as $j => $team)
@@ -52,66 +52,20 @@
                 @endif
             @endforeach
         </table>
+        <div class="container text-center small">
+            <p>Match history:</p>
+        </div>
+        <div class="container small" style="width:40%; background-color: #d0d0d0">
+            <small>
+                <ul class="list-unstyled" style="padding:-10px;">
+                    <li>A vs B - A won SDR +2,05 for winner</li>
+                    <li>A vs B - A won SDR +2,05 for winner</li>
+                    <li>A vs B - A won SDR +2,05 for winner</li>
+                </ul>
+            </small>
+        </div>
     </div>
 </div>
 @endforeach
-<!--
-<div id="gB" class="jumbotron b" style="height: 100%;">
-    <div class="container">
-        <h2>Group B</h2>
-    </div>
-    <div class="container">
-        <table class="table table-bordered">
-            <tr class="b header">
-                <th>Team</th>
-                <th>Played Matches</th>
-                <th>Matches Won</th>
-                <th>Maps Won</th>
-                <th>Matches Lose</th>
-                <th>Maps Lose</th>
-                <th>SDR</th>
-            </tr>
 
-        </table>
-    </div>
-</div>
-<div id="gC"  class="jumbotron c" style="height: 100%;">
-    <div class="container">
-        <h2>Group C</h2>
-    </div>
-    <div class="container">
-        <table class="table table-bordered">
-            <tr class="c header">
-                <th>Team</th>
-                <th>Played Matches</th>
-                <th>Matches Won</th>
-                <th>Maps Won</th>
-                <th>Matches Lose</th>
-                <th>Maps Lose</th>
-                <th>SDR</th>
-            </tr>
-
-        </table>
-    </div>
-</div>
-<div id="gD"  class="jumbotron d" style="height: 100%;">
-    <div class="container">
-        <h2>Group D</h2>
-    </div>
-    <div class="container">
-        <table class="table table-bordered">
-            <tr class="d header">
-                <th>Team</th>
-                <th>Played Matches</th>
-                <th>Matches Won</th>
-                <th>Maps Won</th>
-                <th>Matches Lose</th>
-                <th>Maps Lose</th>
-                <th>SDR</th>
-            </tr>
-
-        </table>
-    </div>
-</div>
--->
 @stop

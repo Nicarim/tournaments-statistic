@@ -47,8 +47,11 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2513863" vertical-offset="0" max-vertical-offset="2074">
-              <folding />
+            <state line="60" column="46" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.780037" vertical-offset="598" max-vertical-offset="1292">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#small#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -448,7 +451,11 @@
       <created>1391602940759</created>
       <updated>1391602940759</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added dynamic buttons by Loctav">
+      <created>1391606708215</created>
+      <updated>1391606708215</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -503,7 +510,8 @@
     <MESSAGE value="Groups are now retrieved dynamically from database." />
     <MESSAGE value="Fixed table header" />
     <MESSAGE value="Fixed table class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed table class" />
+    <MESSAGE value="Added dynamic buttons by Loctav" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dynamic buttons by Loctav" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -533,7 +541,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="3995">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#small#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,7 +603,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="71" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1326">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#small#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -723,8 +737,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2513863" vertical-offset="0" max-vertical-offset="2074">
-          <folding />
+        <state line="60" column="46" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.780037" vertical-offset="598" max-vertical-offset="1292">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#small#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
