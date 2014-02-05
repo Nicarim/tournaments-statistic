@@ -12,7 +12,7 @@
 }
 
 .a {
-    background-color: #FFF2CC;
+    background: #FFF2CC url(/image/background.png);
 }
 
 .a.header {
@@ -21,7 +21,7 @@
 }
 
 .b {
-    background-color: #F4CCCC;
+    background: #F4CCCC url(/image/background.png);
 }
 
 .b.header {
@@ -30,7 +30,7 @@
 }
 
 .c {
-    background-color: #CFE2F3;
+    background: #CFE2F3 url(/image/background.png);
 }
 
 .c.header {
@@ -39,7 +39,7 @@
 }
 
 .d {
-    background-color: #D9EAD3; 
+    background: #D9EAD3 url(/image/background.png); 
 }
 
 .d.header {
