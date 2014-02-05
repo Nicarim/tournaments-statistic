@@ -47,7 +47,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="63" selection-start="900" selection-end="900" vertical-scroll-proportion="0.53419596" vertical-offset="51" max-vertical-offset="2091">
+            <state line="33" column="45" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.47134936" vertical-offset="306" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -440,7 +440,11 @@
       <created>1391602295298</created>
       <updated>1391602295298</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed table header">
+      <created>1391602344989</created>
+      <updated>1391602344989</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -493,7 +497,8 @@
     <MESSAGE value="Added navigation bar for easy jump onto other groups" />
     <MESSAGE value="Cheated navbar - may explode responsivness." />
     <MESSAGE value="Groups are now retrieved dynamically from database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Groups are now retrieved dynamically from database." />
+    <MESSAGE value="Fixed table header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed table header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -713,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="63" selection-start="900" selection-end="900" vertical-scroll-proportion="0.53419596" vertical-offset="51" max-vertical-offset="2091">
+        <state line="33" column="45" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.47134936" vertical-offset="306" max-vertical-offset="2091">
           <folding />
         </state>
       </provider>

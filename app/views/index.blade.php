@@ -29,7 +29,7 @@
             </tr>
             @foreach ($group->teams as $j => $team)
                 @if ($team->group == 0)
-                    @if ($j <= 2)
+                    @if ($j <= 3)
                     <tr class="pass">
                         <td>{{$team->team_name}}</td>
                         <td>{{$team->played}}</td>
