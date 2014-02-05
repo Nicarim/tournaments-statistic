@@ -4,10 +4,9 @@
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container" style="width:100%">
         <ul class="nav navbar-nav text-center" style="width:100%">
-            <li style="width:25%"><a href="#gA">Group A</a></li>
-            <li style="width:25%"><a href="#gB">Group B</a></li>
-            <li style="width:25%"><a href="#gC">Group C</a></li>
-            <li style="width:25%"><a href="#gD">Group D</a></li>
+            @foreach ($groups as $key => $group)
+            <li style="width:25%"><a href="#g{{substr($group->name, -1)}}"</a>{{$group->name}}</a></li>
+            @endforeach
         </ul>
     </div>
 </nav>

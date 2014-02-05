@@ -47,7 +47,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="45" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.47134936" vertical-offset="306" max-vertical-offset="2091">
+            <state line="8" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2513863" vertical-offset="0" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -444,7 +444,11 @@
       <created>1391602344989</created>
       <updated>1391602344989</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed table class">
+      <created>1391602940759</created>
+      <updated>1391602940759</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -498,7 +502,8 @@
     <MESSAGE value="Cheated navbar - may explode responsivness." />
     <MESSAGE value="Groups are now retrieved dynamically from database." />
     <MESSAGE value="Fixed table header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed table header" />
+    <MESSAGE value="Fixed table class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed table class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -718,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="45" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.47134936" vertical-offset="306" max-vertical-offset="2091">
+        <state line="8" column="23" selection-start="416" selection-end="416" vertical-scroll-proportion="0.2513863" vertical-offset="0" max-vertical-offset="2074">
           <folding />
         </state>
       </provider>
