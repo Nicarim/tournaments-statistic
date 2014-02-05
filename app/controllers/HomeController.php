@@ -15,9 +15,11 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showStats()
-	{
-		return View::make('index');
+	public function showStats(){
+        $groups = Group::all();
+		return View::make('index')->with('groups',$groups);
 	}
-
+    public function addStats(){
+        return Redirect::to('/add');
+    }
 }

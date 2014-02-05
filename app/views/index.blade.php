@@ -2,18 +2,19 @@
 
 @section('content')
 <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
-    <div class="container">
-        <ul class="nav navbar-nav text-center">
-            <li style="width:200px"><a href="#gA">Group A</a></li>
-            <li style="width:200px"><a href="#gB">Group B</a></li>
-            <li style="width:200px"><a href="#gC">Group C</a></li>
-            <li style="width:200px"><a href="#gD">Group D</a></li>
+    <div class="container" style="width:100%">
+        <ul class="nav navbar-nav text-center" style="width:100%">
+            <li style="width:25%"><a href="#gA">Group A</a></li>
+            <li style="width:25%"><a href="#gB">Group B</a></li>
+            <li style="width:25%"><a href="#gC">Group C</a></li>
+            <li style="width:25%"><a href="#gD">Group D</a></li>
         </ul>
     </div>
 </nav>
-<div id="gA" class="jumbotron a" style="height: 100%;">
+@foreach ($groups as $key => $group)
+<div id="g{{substr($group->name, -1)}}" class="jumbotron {{strtolower(substr($group->name, -1))}}" style="height: 100%;">
     <div class="container">
-        <h2>Group A</h2>
+        <h2>{{$group->name}}</h2>
     </div>
     <div class="container">
         <table class="table table-bordered">
@@ -26,45 +27,36 @@
                 <th>Maps Lose</th>
                 <th>SDR</th>
             </tr>
-            <tr class="pass">
-                <td>Brazil</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="drop">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
+            @foreach ($group->teams as $j => $team)
+                @if ($team->group == 0)
+                    @if ($j <= 2)
+                    <tr class="pass">
+                        <td>{{$team->team_name}}</td>
+                        <td>{{$team->played}}</td>
+                        <td>{{$team->mw}}</td>
+                        <td>{{$team->ml}}</td>
+                        <td>{{$team->gw}}</td>
+                        <td>{{$team->gl}}</td>
+                        <td>{{$team->sdr}}</td>
+                    </tr>
+                    @else
+                        <tr class="drop">
+                            <td>{{$team->team_name}}</td>
+                            <td>{{$team->played}}</td>
+                            <td>{{$team->mw}}</td>
+                            <td>{{$team->ml}}</td>
+                            <td>{{$team->gw}}</td>
+                            <td>{{$team->gl}}</td>
+                            <td>{{$team->sdr}}</td>
+                        </tr>
+                    @endif
+                @endif
+            @endforeach
         </table>
     </div>
 </div>
+@endforeach
+<!--
 <div id="gB" class="jumbotron b" style="height: 100%;">
     <div class="container">
         <h2>Group B</h2>
@@ -80,42 +72,7 @@
                 <th>Maps Lose</th>
                 <th>SDR</th>
             </tr>
-            <tr class="pass">
-                <td>Brazil</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="drop">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
+
         </table>
     </div>
 </div>
@@ -134,42 +91,7 @@
                 <th>Maps Lose</th>
                 <th>SDR</th>
             </tr>
-            <tr class="pass">
-                <td>Brazil</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="drop">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
+
         </table>
     </div>
 </div>
@@ -188,43 +110,9 @@
                 <th>Maps Lose</th>
                 <th>SDR</th>
             </tr>
-            <tr class="pass">
-                <td>Brazil</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="pass">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
-            <tr class="drop">
-                <td>Taiwan</td>
-                <td>1</td>
-                <td>3</td>
-                <td>2</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2,5</td>
-            </tr>
+
         </table>
     </div>
 </div>
+-->
 @stop

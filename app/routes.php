@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'HomeController@showStats');
+Route::get('/add', function(){
+       return View::make('add');
+    });
+Route::post('/add','HomeController@addStats');
