@@ -18,7 +18,7 @@
     </div>
     <div class="container">
         <table class="table table-bordered">
-            <tr class="a header">
+            <tr class="{{strtolower(substr($group->name, -1))}} header">
                 <th>Team</th>
                 <th>Played Matches</th>
                 <th>Matches Won</th>

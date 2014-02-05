@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Group.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Team.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/add.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="$PROJECT_DIR$/app/config/database.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.blade.php" afterPath="$PROJECT_DIR$/app/views/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -53,7 +47,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="95" selection-start="664" selection-end="664" vertical-scroll-proportion="0.34438306" vertical-offset="51" max-vertical-offset="2091">
+            <state line="20" column="63" selection-start="900" selection-end="900" vertical-scroll-proportion="0.53419596" vertical-offset="51" max-vertical-offset="2091">
               <folding />
             </state>
           </provider>
@@ -442,13 +436,18 @@
       <created>1391511054671</created>
       <updated>1391511054671</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Groups are now retrieved dynamically from database.">
+      <created>1391602295298</created>
+      <updated>1391602295298</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -464,7 +463,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -494,7 +492,8 @@
     <MESSAGE value="Index template changes&#10;" />
     <MESSAGE value="Added navigation bar for easy jump onto other groups" />
     <MESSAGE value="Cheated navbar - may explode responsivness." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cheated navbar - may explode responsivness." />
+    <MESSAGE value="Groups are now retrieved dynamically from database." />
+    <option name="LAST_COMMIT_MESSAGE" value="Groups are now retrieved dynamically from database." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -714,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="95" selection-start="664" selection-end="664" vertical-scroll-proportion="0.34438306" vertical-offset="51" max-vertical-offset="2091">
+        <state line="20" column="63" selection-start="900" selection-end="900" vertical-scroll-proportion="0.53419596" vertical-offset="51" max-vertical-offset="2091">
           <folding />
         </state>
       </provider>
