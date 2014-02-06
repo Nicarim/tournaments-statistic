@@ -1,0 +1,24 @@
+b.taiko{
+    display: inline-block;
+    background-image:url("../osu-icons/taiko.gif");
+    width: 16px;
+    height: 16px;
+}
+b.osu{
+    display: inline-block;
+    background-image:url("../osu-icons/osu.gif");
+    width: 16px;
+    height: 16px;
+}
+b.ctb{
+    display: inline-block;
+    background-image:url("../osu-icons/ctb.gif");
+    width: 16px;
+    height: 16px;
+}
+b.mania{
+    display: inline-block;
+    background-image:url("../osu-icons/mania.gif");
+    width: 16px;
+    height: 16px;
+}

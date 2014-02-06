@@ -16,3 +16,9 @@ Route::get('/add', function(){
        return View::make('add');
     });
 Route::post('/add','HomeController@addStats');
+Route::get('/cool_page', function(){
+        return View::make('tournament/index');
+    });
+Route::get('/list', function(){
+        return View::make('tournament/list');
+    });
