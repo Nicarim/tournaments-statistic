@@ -55,13 +55,15 @@
         <div class="container text-center small">
             <p>Match history:</p>
         </div>
+        @if ($group->matches->count() != 0)
         <div class="container small" style="width:40%; background-color: #d0d0d0">
                 <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 15px;">
-                    <li><a href="#"><span style="color:green;">Brazil</span> vs <span style="color:red;">Japan</span></a> - SDR 2,05 </li>
-                    <li><a href="#"><span style="color:green;">Malaysia</span> vs <span style="color:red;">Germany</span></a> - SDR 3,33 </li>
-
+                    @foreach ($group->matches as $match)
+                    <li><a href="#"><span style="color:green;">{{$match->wTeam->team_name}}</span> vs <span style="color:red;">{{$match->lTeam->team_name}}</span></a> - SDR <b>{{$match->sdr}}</b> </li>
+                    @endforeach
                 </ul>
         </div>
+        @endif
     </div>
 </div>
 @endforeach
