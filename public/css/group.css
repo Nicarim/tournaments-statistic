@@ -1,12 +1,23 @@
+.basicbg{
+    background: url(/image/background.png);
+}
+
+.hoverimg:hover img{
+    opacity:0.5;
+}
+
 .pass {
     background-color: #dbdbdb;
 }
+
 .pass:hover{
     background-color: rgba(219, 219, 219, 0.65);
 }
+
 .drop {
     background-color: #808080;
 }
+
 .drop:hover{
     background-color: rgba(128, 128, 128, 0.65);
 }
@@ -46,9 +57,11 @@
     font-weight: bold;
     background-color: #B6D7A8;
 }
+
 .table-bordered>tbody>tr>td{
     border: 1px solid #000000;
 }
+
 .table-bordered>tbody>tr>th{
     border: 1px solid #000000;
 }
