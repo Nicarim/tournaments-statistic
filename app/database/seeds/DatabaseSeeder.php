@@ -14,4 +14,13 @@ class DatabaseSeeder extends Seeder {
 		// $this->call('UserTableSeeder');
 	}
 
+
+}
+class TournamentsSeeder extends Seeder{
+    public function run(){
+        DB::table('tournaments')->delete();
+        Tournament::create(array(
+
+        ));
+    }
 }

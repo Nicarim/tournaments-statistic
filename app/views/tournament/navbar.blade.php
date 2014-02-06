@@ -2,7 +2,7 @@
     <div class="container">
         <a class="navbar-brand" href="/">Tournaments Management</a>
         <ul class="nav navbar-nav">
-            <li><a href="#">View tourneys</a></li>
+            <li><a href="{{URL::route('list')}}">View tourneys</a></li>
             <li><a href="#">Create tourney</a></li>
         </ul>
     </div>
