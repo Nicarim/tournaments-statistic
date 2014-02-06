@@ -9,19 +9,16 @@
         <th>State</th>
         <th>Slots</th>
     </tr>
+    @foreach($tournaments as $tournament)
     <tr>
-        <td><b class="taiko"></b></td>
-        <td><a href="/view/1">osu! Taiko World Cup</a></td>
+        <td>
+            <b class="{{$gamemodecss[$tournament->gamemode]}}"></b>
+        </td>
+        <td><a href="/view/{{$tournament->id}}">{{$tournament->name}}</a></td>
         <td><small>Tournament Management</small></td>
         <td><b class="label label-info">In Progress</b></td>
-        <td>20/20</td>
+        <td>{{$tournament->slots}}/{{$tournament->max_slots}}</td>
     </tr>
-    <tr>
-        <td><b class="osu"></b></td>
-        <td><a href="/view/1">Individual Championships</a></td>
-        <td><small>There??</small></td>
-        <td><b class="label label-danger">Registrations</b></td>
-        <td>5/20</td>
-    </tr>
+    @endforeach
 </table>
 </div>

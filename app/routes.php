@@ -21,13 +21,9 @@ Route::get('/cool_page', function(){
     });
 Route::get('/list', array(
     "as" => "list",
-    function(){
-        return View::make('tournament/list');
-}));
+    "uses" => "TournamentsController@Lists"
+));
 Route::get('/view/{id}', array(
     "as" => "view-specific",
-    function(){
-        $markdown = new Markdown;
-        $html = $markdown->render('Markdown **sucks**');
-        return View::make('tournament/view')->with('content',$html);
-}));
+    "uses" => "TournamentsController@View"
+));

@@ -15,6 +15,7 @@ class CreateTournamentsTable extends Migration {
 		//
         Schema::create('tournaments', function($table){
             $table->increments('id');
+            $table->integer('gamemode');
             $table->string('name');
             $table->text('overview');
             $table->integer('slots')->default(0);

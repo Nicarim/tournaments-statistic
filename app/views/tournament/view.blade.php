@@ -11,7 +11,7 @@
     <div class="tab-content">
         <div class="tab-pane fade in active" id="overview">
            <a class="label label-info pull-right" href="#"> edit </a> <!-- edit button -->
-            {{$content}}
+            {{$tournament->overview}}
         </div>
         <div class="tab-pane fade" id="rules">Something</div>
         <div class="tab-pane fade" id="mappools">Something</div>
