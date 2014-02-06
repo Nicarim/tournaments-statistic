@@ -15,6 +15,6 @@
         ga('create', 'UA-21965013-4', 'hiroto.eu');
         ga('send', 'pageview');
 
-    </script>d
+    </script>
 </head>
 @yield ('content')
