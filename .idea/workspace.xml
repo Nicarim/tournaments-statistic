@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="You can now add statistics via /add (ask for password, hacking fag)&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Tournament.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php" afterPath="$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php" />
+    <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tournament/list.blade.php" afterPath="$PROJECT_DIR$/app/views/tournament/list.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TournamentsController.php" afterPath="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/master.blade.php" afterPath="$PROJECT_DIR$/app/views/master.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tournament/view.blade.php" afterPath="$PROJECT_DIR$/app/views/tournament/view.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +34,7 @@
       <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/config/app.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="-17.384615" vertical-offset="1299" max-vertical-offset="3162">
+            <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="19.884615" vertical-offset="2268" max-vertical-offset="3162">
               <folding />
             </state>
           </provider>
@@ -44,43 +43,27 @@
       <file leaf-file-name="view.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="860" selection-end="860" vertical-scroll-proportion="0.34891677" vertical-offset="0" max-vertical-offset="877">
+            <state line="25" column="6" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.47327393" vertical-offset="0" max-vertical-offset="898">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014_02_06_175426_create_tournaments_table.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="40" selection-start="365" selection-end="365" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="748">
-              <folding />
+            <state line="20" column="33" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <folding>
+                <marker date="1391718883733" expanded="true" signature="1007:1019" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tournament.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Tournament.php">
+      <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="37" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCase.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExampleTest.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/tests/ExampleTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="12" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -98,7 +81,7 @@
       <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="1" selection-start="718" selection-end="718" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
+            <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -107,7 +90,25 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="40" selection-start="592" selection-end="592" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="527">
+            <state line="24" column="11" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="25" selection-start="260" selection-end="260" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -117,7 +118,13 @@
         <entry file="file://$PROJECT_DIR$/app/views/tournament/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
-              <folding />
+              <folding>
+                <marker date="1391704725241" expanded="true" signature="57:468" placeholder="..." />
+                <marker date="1391704725241" expanded="false" signature="93:105" placeholder="..." />
+                <marker date="1391704725241" expanded="true" signature="106:460" placeholder="..." />
+                <marker date="1391704725241" expanded="true" signature="138:449" placeholder="..." />
+                <marker date="1391704725241" expanded="true" signature="184:354" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,7 +148,6 @@
         <option value="$PROJECT_DIR$/public/css/main.css" />
         <option value="$PROJECT_DIR$/public/css/group.css" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
-        <option value="$PROJECT_DIR$/app/views/master.blade.php" />
         <option value="$PROJECT_DIR$/app/views/add.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Team.php" />
         <option value="$PROJECT_DIR$/app/models/Match.php" />
@@ -153,11 +159,13 @@
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/models/Tournament.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php" />
-        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/views/master.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/view.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
       </list>
     </option>
   </component>
@@ -209,6 +217,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,50 +339,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments-statistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments-statistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seeds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments-statistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments-statistic" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,7 +534,11 @@
       <created>1391711477092</created>
       <updated>1391711477092</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database">
+      <created>1391712934535</created>
+      <updated>1391712934535</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -599,17 +599,13 @@
     <MESSAGE value="You can now add statistics via /add (ask for password, hacking fag)" />
     <MESSAGE value="Added 2 new dependencies (make sure to do &quot;composer update&quot; before trying to work!)&#10;&#10;Added tournaments migration&#10;&#10;" />
     <MESSAGE value="Oops, forgot to add to previous commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oops, forgot to add to previous commit" />
+    <MESSAGE value="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="438" selection-end="438" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="48" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255" />
@@ -634,7 +630,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476" />
+        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -669,7 +667,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476" />
+        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -724,11 +724,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="511" selection-end="511" vertical-scroll-proportion="-0.7480226" vertical-offset="900" max-vertical-offset="1785" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0378198" vertical-offset="0" max-vertical-offset="899" />
@@ -746,13 +741,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/storage/sessions/2b673e11090a5ef0a1ba78f6e61895ada3ffbde6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="911">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/storage/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
@@ -763,13 +751,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
@@ -809,20 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="845" selection-end="845" vertical-scroll-proportion="0.32182628" vertical-offset="0" max-vertical-offset="898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
@@ -833,13 +800,6 @@
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="36" selection-start="421" selection-end="421" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="-17.384615" vertical-offset="1299" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>
@@ -865,30 +825,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="1" selection-start="718" selection-end="718" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="3" selection-start="852" selection-end="852" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Tournament.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="37" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="40" selection-start="592" selection-end="592" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
@@ -903,13 +842,84 @@
     <entry file="file://$PROJECT_DIR$/app/views/tournament/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924">
+          <folding>
+            <marker date="1391704725241" expanded="true" signature="57:468" placeholder="..." />
+            <marker date="1391704725241" expanded="false" signature="93:105" placeholder="..." />
+            <marker date="1391704725241" expanded="true" signature="106:460" placeholder="..." />
+            <marker date="1391704725241" expanded="true" signature="138:449" placeholder="..." />
+            <marker date="1391704725241" expanded="true" signature="184:354" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="19.884615" vertical-offset="2268" max-vertical-offset="3162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="511" selection-end="511" vertical-scroll-proportion="25.26923" vertical-offset="895" max-vertical-offset="1785">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="521" selection-end="521" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="11" selection-start="737" selection-end="737" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding>
+            <marker date="1391718883733" expanded="true" signature="1007:1019" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="260" selection-end="260" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="860" selection-end="860" vertical-scroll-proportion="0.34891677" vertical-offset="0" max-vertical-offset="877">
+        <state line="25" column="6" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.47327393" vertical-offset="0" max-vertical-offset="898">
           <folding />
         </state>
       </provider>

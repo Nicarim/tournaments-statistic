@@ -22,12 +22,7 @@ class TournamentsSeeder extends Seeder{
         Tournament::create(array(
             "name" => "osu! Taiko World Cup 2014",
             "gamemode" => 1,
-            "overview" =>
-                "Some markup language
-                 ====================
-                 and some smaller header
-                 -----------------------
-                 ",
+            "overview" => "Some markup\n====================\nand some smaller header\n----------------------- \n",
             "max_slots" => 16
         ));
     }
