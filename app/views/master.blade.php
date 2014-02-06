@@ -4,8 +4,10 @@
     <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
     <script src="/js/jquery-2.0.3.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
     <script src="/js/bootstrap.datepicker.js"></script>
     <link rel="stylesheet" href="/css/group.css" />
+    <link rel="stylesheet" href="/css/main.css" />
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
