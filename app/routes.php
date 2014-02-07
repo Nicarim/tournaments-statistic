@@ -29,3 +29,6 @@ Route::get('/view/{id}', array(
 ));
 Route::get('/view_raw/{id}/overview', "TournamentsController@rawOverview");
 Route::post('/edit_raw/{id}/overview', "TournamentsController@editOverview");
+
+Route::get('/addtourney', "TournamentsController@viewCreate");
+Route::post('/addtourney', "TournamentsController@useCreate");

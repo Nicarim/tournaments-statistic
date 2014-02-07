@@ -36,4 +36,30 @@ class TournamentsController extends BaseController {
         return $output;
 
     }
+    
+    public function viewCreate(){
+    return View::make('tournament/add');    
+    }
+    
+    public function useCreate(){
+    /* return View::make('tournament/add'); */
+    $data = array(
+            "gamemode" => Input::get('gametype'),        
+            "name" => Input::get('name'),
+            "host" => Input::get('host'),
+            "overview" => " ",
+            "slots" => 0,
+            "max_slots" => 16,
+            "deleted_at" => NULL,
+            "created_at" => time(),
+            "updated_at" => time(),
+        );
+     $password = Input::get('password');
+        
+     if ($password == "woop"){
+     
+     $tourney = Tournament::create($data);
+     }
+     return Redirect::to('/list');
+    }   
 }
