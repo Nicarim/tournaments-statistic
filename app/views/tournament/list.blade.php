@@ -15,7 +15,7 @@
             <b class="{{$gamemodecss[$tournament->gamemode]}}"></b>
         </td>
         <td><a href="/view/{{$tournament->id}}">{{$tournament->name}}</a></td>
-        <td><small>Tournament Management</small></td>
+        <td><small>{{$tournament->host}}</small></td>
         <td><b class="label label-info">In Progress</b></td>
         <td>{{$tournament->slots}}/{{$tournament->max_slots}}</td>
     </tr>
