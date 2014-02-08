@@ -36,3 +36,5 @@ Route::get('/addtourney', array(
 ));
 
 Route::post('/addtourney', "TournamentsController@useCreate");
+Route::get('/bstats', 'HomeController@showBeatmapStats');
+Route::post('/bstats','HomeController@addBeatmapStats');

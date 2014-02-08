@@ -116,4 +116,32 @@ class HomeController extends BaseController {
 
         return Redirect::to('/');
     }
+    public function addBeatmapStats(){
+        $matches = Match::all();
+        if (Input::get('password') == "kurwamac"){
+            foreach($matches as $match){
+                $matchjson = json_decode(file_get_contents("https://osu.ppy.sh/api/get_match?k=".$this->apikey."&mp=".$match->room_id));
+                foreach($matchjson->games as $game){
+                    $beatmap = Beatmap::where('beatmap_id','=',$game->beatmap_id);
+                    try{
+                        $beatmapjson = json_decode(file_get_contents("https://osu.ppy.sh/api/get_beatmaps?k=".$this->apikey."&b=".$game->beatmap_id));
+                        $beatmap->played += 1;
+                        $beatmap->diff = $beatmapjson->version;
+                        $beatmap->artist = $beatmapjson->artist;
+                        $beatmap->title = $beatmapjson->title;
+                        $beatmap->save();
+                    }catch(Exception $e){
+
+                    }
+                }
+            }
+        }
+        else
+            return "kurwa fuck off";
+        return Redirect::to('/bstats');
+    }
+    public function showBeatmapStats(){
+
+        return View::make('beatmapstats')->with('beatmaps', Beatmap::all());
+    }
 }
