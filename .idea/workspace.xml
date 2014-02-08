@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/group.css" afterPath="$PROJECT_DIR$/public/css/group.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -29,7 +29,7 @@
       <file leaf-file-name="view.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="6" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
+            <state line="25" column="6" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-0.0" vertical-offset="425" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -76,16 +76,16 @@
       <file leaf-file-name="Beatmap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+            <state line="10" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+      <file leaf-file-name="group.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/group.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="47" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.48135594" vertical-offset="254" max-vertical-offset="2108">
+            <state line="23" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.24567099" vertical-offset="164" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/css/group.css" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/add.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Team.php" />
@@ -156,6 +155,7 @@
         <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/public/css/group.css" />
       </list>
     </option>
   </component>
@@ -238,7 +238,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="osu-icons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -677,7 +713,11 @@
       <created>1391882111823</created>
       <updated>1391882111823</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="And revert of revert.">
+      <created>1391882157355</created>
+      <updated>1391882157355</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -719,7 +759,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Initial push&#10;Added bootstrap&#10;&#10;Made asd header." />
     <MESSAGE value="Fixed routes, forwarded to controller" />
     <MESSAGE value="Fixed index template" />
     <MESSAGE value="Index template changes" />
@@ -744,7 +783,8 @@
     <MESSAGE value="Fixed team names for new format." />
     <MESSAGE value="Fixed team names for new format.&#10;" />
     <MESSAGE value="Fix for one submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix for one submission" />
+    <MESSAGE value="And revert of revert." />
+    <option name="LAST_COMMIT_MESSAGE" value="And revert of revert." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -842,11 +882,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="94" selection-end="121" vertical-scroll-proportion="0.0155902" vertical-offset="54" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/group.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="563" selection-end="563" vertical-scroll-proportion="0.5584416" vertical-offset="96" max-vertical-offset="1020" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -1009,7 +1044,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+        <state line="10" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
           <folding />
         </state>
       </provider>
@@ -1026,7 +1061,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="47" selection-start="1888" selection-end="1888" vertical-scroll-proportion="0.48135594" vertical-offset="254" max-vertical-offset="2108">
+        <state line="51" column="31" selection-start="2845" selection-end="2845" vertical-scroll-proportion="-0.4022599" vertical-offset="1223" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/group.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.24567099" vertical-offset="164" max-vertical-offset="1241">
           <folding />
         </state>
       </provider>
