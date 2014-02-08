@@ -118,6 +118,11 @@ class HomeController extends BaseController {
     }
     public function addBeatmapStats(){
         $matches = Match::all();
+        $beatmaps = Beatmap::all();
+        foreach($beatmaps as $beatmap){
+            $beatmap->played = 0;
+            $beatmap->save();
+        }
         ini_set('max_execution_time',300);
         if (Input::get('password') == "kurwamac"){
             $beatmapids = " ";
