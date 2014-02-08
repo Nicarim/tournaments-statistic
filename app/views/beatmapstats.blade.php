@@ -10,7 +10,7 @@
             @foreach ($beatmaps as $beatmap)
             <tr>
                 <td>{{$beatmap->picktype}}</td>
-                <td><a href="https://osu.ppy.sh/b/{{$beatmap_id}}">{{$beatmap->artist." - ".$beatmap->title." [".$beatmap->diff."]"}}</a></td>
+                <td><a href="https://osu.ppy.sh/b/{{$beatmap->id}}">{{$beatmap->artist." - ".$beatmap->title." [".$beatmap->diff."]"}}</a></td>
                 <td>{{$beatmap->played}}</td>
             </tr>
             @endforeach
