@@ -87,7 +87,9 @@ class HomeController extends BaseController {
                 $teamA->mw += 1;//won matches by A
                 $teamB->ml += 1;//lost matches by opposite team
                 $teamA->gw += $teamAwon;//games won by A
+                $teamB->gw += $teamBwon;//games won by A
                 $teamB->gl += $teamAwon;//lost games by opposite team
+                $teamA->gl += $teamBwon;//lost games by opposite team
                 $teamA->sdr += $sdr;
                 $teamB->sdr += -($sdr);
 
@@ -102,7 +104,9 @@ class HomeController extends BaseController {
                 $teamB->mw += 1;//won matches by A
                 $teamA->ml += 1;//lost matches by opposite team
                 $teamB->gw += $teamBwon;//games won by A
+                $teamA->gw += $teamAwon;//games won by A
                 $teamA->gl += $teamBwon;//lost games by opposite team
+                $teamB->gl += $teamAwon;//lost games by opposite team
                 $teamB->sdr += $sdr;//lost games by opposite team
                 $teamA->sdr += -($sdr);//lost games by opposite team
             }
