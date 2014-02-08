@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Beatmap.php" afterPath="$PROJECT_DIR$/app/models/Beatmap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -84,7 +83,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="149" column="5" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.86553675" vertical-offset="1767" max-vertical-offset="2652">
+            <state line="131" column="53" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.6158192" vertical-offset="1682" max-vertical-offset="2567">
               <folding />
             </state>
           </provider>
@@ -612,7 +611,11 @@
       <created>1391892971726</created>
       <updated>1391892971726</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894119327</created>
+      <updated>1391894119327</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -620,7 +623,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -654,7 +657,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Index template changes" />
     <MESSAGE value="Index template changes&#10;" />
     <MESSAGE value="Added navigation bar for easy jump onto other groups" />
     <MESSAGE value="Cheated navbar - may explode responsivness." />
@@ -679,7 +681,8 @@
     <MESSAGE value="And revert of revert." />
     <MESSAGE value="Fixed styling" />
     <MESSAGE value="Experimental stats for beatmaps" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experimental stats for beatmaps" />
+    <MESSAGE value="Experimental stats for beatmaps&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experimental stats for beatmaps&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -975,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="5" selection-start="7220" selection-end="7220" vertical-scroll-proportion="0.86553675" vertical-offset="1767" max-vertical-offset="2652">
+        <state line="131" column="53" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.6158192" vertical-offset="1682" max-vertical-offset="2567">
           <folding />
         </state>
       </provider>

@@ -124,19 +124,14 @@ class HomeController extends BaseController {
             foreach($matches as $match){
                 $matchjson = json_decode(file_get_contents("https://osu.ppy.sh/api/get_match?k=".$this->apikey."&mp=".$match->room_id));
                 foreach($matchjson->games as $game){
-
-                    try{
-                        $beatmap = Beatmap::where('beatmap_id','=',$game->beatmap_id)->first();
-                        $beatmapids = $beatmapids." ".$game->beatmap_id;
-                        $beatmapjson = json_decode(file_get_contents("https://osu.ppy.sh/api/get_beatmaps?k=".$this->apikey."&b=".$game->beatmap_id));
-                        $beatmap->played += 1;
-                        $beatmap->diff = $beatmapjson[0]->version;
-                        $beatmap->artist = $beatmapjson[0]->artist;
-                        $beatmap->title = $beatmapjson[0]->title;
-                        $beatmap->save();
-                    }catch(Exception $e){
-
-                    }
+                    $beatmap = Beatmap::where('beatmap_id','=',$game->beatmap_id)->first();
+                    $beatmapids = $beatmapids." ".$game->beatmap_id;
+                    $beatmapjson = json_decode(file_get_contents("https://osu.ppy.sh/api/get_beatmaps?k=".$this->apikey."&b=".$game->beatmap_id));
+                    $beatmap->played += 1;
+                    $beatmap->diff = $beatmapjson[0]->version;
+                    $beatmap->artist = $beatmapjson[0]->artist;
+                    $beatmap->title = $beatmapjson[0]->title;
+                    $beatmap->save();
                 }
             }
         }
