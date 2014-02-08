@@ -85,7 +85,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="49" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.7299435" vertical-offset="0" max-vertical-offset="1292">
+            <state line="61" column="203" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -536,7 +536,11 @@
       <created>1391852401369</created>
       <updated>1391852401369</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added rounding.">
+      <created>1391856278040</created>
+      <updated>1391856278040</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -600,7 +604,8 @@
     <MESSAGE value="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database" />
     <MESSAGE value="Added edit of overview, DYNAMIC" />
     <MESSAGE value="Added SDR (completed stats site)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SDR (completed stats site)" />
+    <MESSAGE value="Added rounding." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rounding." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -888,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="49" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.7299435" vertical-offset="0" max-vertical-offset="1292">
+        <state line="61" column="203" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
