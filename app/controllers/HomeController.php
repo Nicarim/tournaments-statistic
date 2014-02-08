@@ -31,8 +31,8 @@ class HomeController extends BaseController {
             $jsondata = json_decode(file_get_contents("https://osu.ppy.sh/api/get_match?k=".$this->apikey."&mp=".$matches[0]));
             $matchinfo = array(
                 "matchname" => explode(':',$jsondata->match->name)[0],
-                "teamA" => substr(explode('vs',explode(':',$jsondata->match->name)[1])[0],1),
-                "teamB" => substr(explode('vs',explode(':',$jsondata->match->name)[1])[1],1)
+                "teamA" => substr(substr(explode('vs',explode(':',$jsondata->match->name)[1])[0],2),0,-2),
+                "teamB" => substr(substr(explode('vs',explode(':',$jsondata->match->name)[1])[1],2),0,-1)
             );
             $teamA = Team::where('team_name',$matchinfo['teamA'])->first();
             $teamB = Team::where('team_name',$matchinfo['teamB'])->first();
