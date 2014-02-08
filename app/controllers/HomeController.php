@@ -66,7 +66,7 @@ class HomeController extends BaseController {
                         //need to add SDR here
                         try{
                         $beatmap = Beatmap::where("beatmap_id",$game->beatmap_id)->first();
-                        $sdr += round(($teamAscore - $teamBscore) / $beatmap->maxscore,3);
+                        $sdr += round(abs($teamAscore - $teamBscore) / $beatmap->maxscore,3);
                         }catch (Exception $e){
                             return $game->beatmap_id;
                         }

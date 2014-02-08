@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.blade.php" afterPath="$PROJECT_DIR$/app/views/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -82,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
+      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="74" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
+            <state line="65" column="46" selection-start="3473" selection-end="3473" vertical-scroll-proportion="0.6542373" vertical-offset="526" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -154,8 +154,8 @@
         <option value="$PROJECT_DIR$/app/views/tournament/view.blade.php" />
         <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/app/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
       </list>
     </option>
   </component>
@@ -544,7 +544,11 @@
       <created>1391856321718</created>
       <updated>1391856321718</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added rounding.&#10;">
+      <created>1391856363197</created>
+      <updated>1391856363197</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -889,16 +893,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="88" selection-start="3683" selection-end="3683" vertical-scroll-proportion="0.94237286" vertical-offset="322" max-vertical-offset="2040">
+        <state line="56" column="14" selection-start="2293" selection-end="2293" vertical-scroll-proportion="0.6158192" vertical-offset="407" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="74" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
+        <state line="65" column="46" selection-start="3473" selection-end="3473" vertical-scroll-proportion="0.6542373" vertical-offset="526" max-vertical-offset="2040">
           <folding />
         </state>
       </provider>
