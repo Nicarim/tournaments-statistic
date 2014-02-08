@@ -83,7 +83,7 @@
       <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="131" column="53" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.6158192" vertical-offset="1682" max-vertical-offset="2567">
+            <state line="135" column="37" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.6926554" vertical-offset="1682" max-vertical-offset="2635">
               <folding />
             </state>
           </provider>
@@ -615,7 +615,11 @@
       <created>1391894119327</created>
       <updated>1391894119327</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894241730</created>
+      <updated>1391894241730</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -978,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="53" selection-start="6699" selection-end="6699" vertical-scroll-proportion="0.6158192" vertical-offset="1682" max-vertical-offset="2567">
+        <state line="135" column="37" selection-start="6872" selection-end="6872" vertical-scroll-proportion="0.6926554" vertical-offset="1682" max-vertical-offset="2635">
           <folding />
         </state>
       </provider>
