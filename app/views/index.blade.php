@@ -59,7 +59,7 @@
         <div class="container small" style="width:40%; background-color: #d0d0d0">
                 <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 15px;">
                     @foreach ($group->matches as $match)
-                    <li><a href="#"><span style="color:green;">{{$match->wTeam->team_name}}</span> vs <span style="color:red;">{{$match->lTeam->team_name}}</span></a> - SDR <b>{{abs(round($match->sdr,3))}}</b> </li>
+                    <li><a href="https://osu.ppy.sh/mp/{{$match->room_id}}"><span style="color:green;">{{$match->wTeam->team_name}}</span> vs <span style="color:red;">{{$match->lTeam->team_name}}</span></a> - SDR <b>{{abs(round($match->sdr,3))}}</b> </li>
                     @endforeach
                 </ul>
         </div>

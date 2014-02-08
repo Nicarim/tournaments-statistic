@@ -85,7 +85,7 @@
       <file leaf-file-name="index.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="203" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
+            <state line="61" column="74" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -540,7 +540,11 @@
       <created>1391856278040</created>
       <updated>1391856278040</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added rounding.&#10;">
+      <created>1391856321718</created>
+      <updated>1391856321718</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -605,7 +609,8 @@
     <MESSAGE value="Added edit of overview, DYNAMIC" />
     <MESSAGE value="Added SDR (completed stats site)" />
     <MESSAGE value="Added rounding." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added rounding." />
+    <MESSAGE value="Added rounding.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added rounding.&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -893,7 +898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="203" selection-start="2781" selection-end="2781" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
+        <state line="61" column="74" selection-start="2652" selection-end="2652" vertical-scroll-proportion="0.7118644" vertical-offset="407" max-vertical-offset="1292">
           <folding />
         </state>
       </provider>
