@@ -11,14 +11,17 @@
 |
 */
 
-Route::get('/', 'HomeController@showStats');
+Route::get('/twc_2014', 'HomeController@showStats');
 Route::get('/add', function(){
        return View::make('add');
     });
 Route::post('/add','HomeController@addStats');
+Route::get('/bstats', 'HomeController@showBeatmapStats');
+Route::post('/bstats','HomeController@addBeatmapStats');
+
 Route::get('/cool_page', function(){
-        return View::make('tournament/index');
-    });
+    return View::make('tournament/index');
+});
 Route::get('/list', array(
     "as" => "list",
     "uses" => "TournamentsController@Lists"
@@ -36,5 +39,3 @@ Route::get('/addtourney', array(
 ));
 
 Route::post('/addtourney', "TournamentsController@useCreate");
-Route::get('/bstats', 'HomeController@showBeatmapStats');
-Route::post('/bstats','HomeController@addBeatmapStats');

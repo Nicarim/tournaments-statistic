@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/twc_2014.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/controllers/HomeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -25,77 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="3162">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2014_02_06_175426_create_tournaments_table.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="434" selection-end="434" vertical-scroll-proportion="0.19408503" vertical-offset="201" max-vertical-offset="765">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="beatmapstats.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/beatmapstats.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding>
-                <marker date="1392806354505" expanded="true" signature="95:399" placeholder="..." />
-                <marker date="1392806354505" expanded="true" signature="112:225" placeholder="..." />
-                <marker date="1392806354505" expanded="true" signature="287:399" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="33" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tournament/list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatabaseSeeder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="578">
+            <state line="17" column="12" selection-start="936" selection-end="1054" vertical-scroll-proportion="-0.0" vertical-offset="289" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -104,16 +40,86 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="11" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1207">
+            <state line="38" column="4" selection-start="1134" selection-end="1134" vertical-scroll-proportion="-12.961538" vertical-offset="309" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
+      <file leaf-file-name="beatmapstats.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/beatmapstats.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
+            <state line="19" column="5" selection-start="611" selection-end="611" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+              <folding>
+                <marker date="1391971614951" expanded="true" signature="65:604" placeholder="..." />
+                <marker date="1391971614951" expanded="true" signature="95:592" placeholder="..." />
+                <marker date="1391971614951" expanded="true" signature="112:225" placeholder="..." />
+                <marker date="1391971614951" expanded="true" signature="287:551" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Beatmap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="2" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Match.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Match.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="37" selection-start="189" selection-end="189" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twc_2014.blade.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/twc_2014.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6120">
+              <folding>
+                <marker date="1392834081759" expanded="true" signature="72:1448" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="36" selection-start="641" selection-end="641" vertical-scroll-proportion="0.3457627" vertical-offset="0" max-vertical-offset="2703">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Group.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Group.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="28" selection-start="19" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Team.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="31" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tournament.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Tournament.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -136,7 +142,6 @@
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public/css/main.css" />
-        <option value="$PROJECT_DIR$/public/css/group.css" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/add.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Team.php" />
@@ -146,16 +151,19 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/models/Tournament.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/list.blade.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/views/master.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
-        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/view.blade.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/app/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/group.css" />
+        <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
+        <option value="$PROJECT_DIR$/app/views/beatmapstats.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/controllers/HomeController.php" />
       </list>
     </option>
   </component>
@@ -163,8 +171,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -192,35 +200,45 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -230,29 +248,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -263,18 +263,14 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournament" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -288,11 +284,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -306,33 +302,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tournaments" />
+              <option name="myItemId" value="tournaments-statistic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -345,6 +319,10 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
       </pane>
     </panes>
   </component>
@@ -371,7 +349,125 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="982" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Dropbox/laravel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Marcin\Desktop\Projects\tournaments-statistic\app\views" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/app/views/tournament/view.blade.php</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -501,41 +597,113 @@
       <created>1391712934535</created>
       <updated>1391712934535</updated>
     </task>
-    <task id="LOCAL-00023" summary="FIXED DAMN THING FOR LOOSING TEAM RESULTS">
-      <created>1391863292884</created>
-      <updated>1391863292884</updated>
+    <task id="LOCAL-00023" summary="Added edit of overview, DYNAMIC">
+      <created>1391718996564</created>
+      <updated>1391718996564</updated>
     </task>
-    <task id="LOCAL-00024" summary="Added win by default type.">
-      <created>1391949038205</created>
-      <updated>1391949038205</updated>
+    <task id="LOCAL-00024" summary="Added SDR (completed stats site)">
+      <created>1391852401369</created>
+      <updated>1391852401369</updated>
     </task>
-    <task id="LOCAL-00025" summary="Added win by default type.&#10;">
-      <created>1392832408691</created>
-      <updated>1392832408691</updated>
+    <task id="LOCAL-00025" summary="Added rounding.">
+      <created>1391856278040</created>
+      <updated>1391856278040</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added rounding.&#10;">
+      <created>1391856321718</created>
+      <updated>1391856321718</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Added rounding.&#10;">
+      <created>1391856363197</created>
+      <updated>1391856363197</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fixed absolute value missing for SDR.">
+      <created>1391856497276</created>
+      <updated>1391856497277</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fixed team names for new format.">
+      <created>1391878248849</created>
+      <updated>1391878248849</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fixed team names for new format.&#10;">
+      <created>1391881321537</created>
+      <updated>1391881321537</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Fix for one submission">
+      <created>1391882111823</created>
+      <updated>1391882111823</updated>
+    </task>
+    <task id="LOCAL-00032" summary="And revert of revert.">
+      <created>1391882157355</created>
+      <updated>1391882157355</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fixed styling">
+      <created>1391884716856</created>
+      <updated>1391884716856</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Experimental stats for beatmaps">
+      <created>1391892971726</created>
+      <updated>1391892971726</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894119327</created>
+      <updated>1391894119327</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894241730</created>
+      <updated>1391894241730</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894320653</created>
+      <updated>1391894320653</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Experimental stats for beatmaps&#10;">
+      <created>1391894517299</created>
+      <updated>1391894517299</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Experimental stats for beatmaps&#10;">
+      <created>1391895167830</created>
+      <updated>1391895167830</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Experimental stats for beatmaps&#10;">
+      <created>1391895672523</created>
+      <updated>1391895672523</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Experimental stats for beatmaps&#10;">
+      <created>1391895781692</created>
+      <updated>1391895781692</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Experimental stats for beatmaps&#10;">
+      <created>1391895801919</created>
+      <updated>1391895801919</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Experimental stats for beatmaps&#10;">
+      <created>1391971618998</created>
+      <updated>1391971618998</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28625378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32247558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842106" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -555,13 +723,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="first commit&#10;" />
-    <MESSAGE value="Changed readme" />
-    <MESSAGE value="Comitted first push, yey" />
-    <MESSAGE value="Initial push&#10;Added bootstrap&#10;&#10;Made asd header." />
-    <MESSAGE value="Fixed routes, forwarded to controller" />
-    <MESSAGE value="Fixed index template" />
-    <MESSAGE value="Index template changes" />
     <MESSAGE value="Index template changes&#10;" />
     <MESSAGE value="Added navigation bar for easy jump onto other groups" />
     <MESSAGE value="Cheated navbar - may explode responsivness." />
@@ -575,30 +736,24 @@
     <MESSAGE value="Added 2 new dependencies (make sure to do &quot;composer update&quot; before trying to work!)&#10;&#10;Added tournaments migration&#10;&#10;" />
     <MESSAGE value="Oops, forgot to add to previous commit" />
     <MESSAGE value="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database" />
-    <MESSAGE value="FIXED DAMN THING FOR LOOSING TEAM RESULTS" />
-    <MESSAGE value="Added win by default type." />
-    <MESSAGE value="Added win by default type.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added win by default type.&#10;" />
+    <MESSAGE value="Added edit of overview, DYNAMIC" />
+    <MESSAGE value="Added SDR (completed stats site)" />
+    <MESSAGE value="Added rounding." />
+    <MESSAGE value="Added rounding.&#10;" />
+    <MESSAGE value="Fixed absolute value missing for SDR." />
+    <MESSAGE value="Fixed team names for new format." />
+    <MESSAGE value="Fixed team names for new format.&#10;" />
+    <MESSAGE value="Fix for one submission" />
+    <MESSAGE value="And revert of revert." />
+    <MESSAGE value="Fixed styling" />
+    <MESSAGE value="Experimental stats for beatmaps" />
+    <MESSAGE value="Experimental stats for beatmaps&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experimental stats for beatmaps&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="3995" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/group.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1020" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391" />
@@ -606,7 +761,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476" />
+        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -641,7 +798,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476" />
+        <state line="17" column="29" selection-start="534" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="476">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -659,21 +818,6 @@
         <state line="15" column="12" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="374" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="315" selection-end="315" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Match.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="37" selection-start="189" selection-end="189" vertical-scroll-proportion="0.09465479" vertical-offset="0" max-vertical-offset="898" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="31" selection-start="1872" selection-end="1872" vertical-scroll-proportion="0.41648108" vertical-offset="663" max-vertical-offset="2210" />
@@ -682,16 +826,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="94" selection-end="121" vertical-scroll-proportion="0.0155902" vertical-offset="54" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/group.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="22" selection-start="563" selection-end="563" vertical-scroll-proportion="0.5584416" vertical-offset="96" max-vertical-offset="1020" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
@@ -759,16 +893,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Tournament.php">
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="37" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221" />
+        <state line="17" column="40" selection-start="365" selection-end="365" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="748" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/index.blade.php">
@@ -778,87 +910,136 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="3162">
+        <state line="103" column="52" selection-start="3675" selection-end="3675" vertical-scroll-proportion="0.0" vertical-offset="2268" max-vertical-offset="3162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="6" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-0.0" vertical-offset="425" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/group.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="164" max-vertical-offset="1241" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="260" selection-end="260" vertical-scroll-proportion="0.11358575" vertical-offset="0" max-vertical-offset="898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="14" selection-start="2293" selection-end="2293" vertical-scroll-proportion="-35.692307" vertical-offset="24" max-vertical-offset="1292" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/tournament/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="1250" selection-end="1484" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="765">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="12" selection-start="936" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="31" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Tournament.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="2" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Match.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="189" selection-end="189" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="19" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/beatmapstats.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="5" selection-start="611" selection-end="611" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
+          <folding>
+            <marker date="1391971614951" expanded="true" signature="65:604" placeholder="..." />
+            <marker date="1391971614951" expanded="true" signature="95:592" placeholder="..." />
+            <marker date="1391971614951" expanded="true" signature="112:225" placeholder="..." />
+            <marker date="1391971614951" expanded="true" signature="287:551" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="4" selection-start="1134" selection-end="1134" vertical-scroll-proportion="-12.961538" vertical-offset="309" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/twc_2014.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6120">
+          <folding>
+            <marker date="1392834081759" expanded="true" signature="72:1448" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="521" selection-end="521" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="37" column="19" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.5300668" vertical-offset="0" max-vertical-offset="898">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="39" selection-start="6537" selection-end="6537" vertical-scroll-proportion="-2.0769231" vertical-offset="2190" max-vertical-offset="2720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/beatmapstats.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding>
-            <marker date="1392806354505" expanded="true" signature="95:399" placeholder="..." />
-            <marker date="1392806354505" expanded="true" signature="112:225" placeholder="..." />
-            <marker date="1392806354505" expanded="true" signature="287:399" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="49" selection-start="571" selection-end="571" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="260" selection-end="260" vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="543" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="41" selection-start="2923" selection-end="2923" vertical-scroll-proportion="-17.653847" vertical-offset="612" max-vertical-offset="1360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="5" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tournament/view.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="11" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_02_06_175426_create_tournaments_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="434" selection-end="434" vertical-scroll-proportion="0.19408503" vertical-offset="201" max-vertical-offset="765">
+        <state line="18" column="36" selection-start="641" selection-end="641" vertical-scroll-proportion="0.3457627" vertical-offset="0" max-vertical-offset="2703">
           <folding />
         </state>
       </provider>

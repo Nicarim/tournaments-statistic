@@ -16,8 +16,7 @@ class HomeController extends BaseController {
 	*/
     public $apikey = "459fc9f4860d2966cd935c9ecd66d7caf5bf9f13";
 	public function showStats(){
-        $groups = Group::all();
-		return View::make('index')->with('groups',$groups);
+		return View::make('twc_2014');
 	}
     public function addStats(){
         $data = array(
