@@ -4,9 +4,11 @@
     <h1>{{$tournament->name}}</h1>
     <ul class="nav nav-tabs">
         <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
-        <li><a href="#rules"  data-toggle="tab">Rules</a></li>
+        <li><a href="#schedule"  data-toggle="tab">Schedule</a></li>
         <li><a href="#mappools" data-toggle="tab">Map Pools</a></li>
         <li><a href="#teams" data-toggle="tab">Teams</a></li>
+        <li><a href="#results" data-toggle="tab">Results/Stats</a></li>
+        <li><a href="#settings" data-toggle="tab">Tournament Settings</a></li>
     </ul>
     <div class="tab-content">
 
@@ -18,9 +20,11 @@
             {{$overview}}
            </div>
         </div>
-        <div class="tab-pane fade" id="rules">Something</div>
+        <div class="tab-pane fade" id="schedule">Something</div>
         <div class="tab-pane fade" id="mappools">Something</div>
         <div class="tab-pane fade" id="teams">Something</div>
+        <div class="tab-pane fade" id="results">Results/Stats</div>
+        <div class="tab-pane fade" id="settings">Something</div>
     </div>
 
 </div>
