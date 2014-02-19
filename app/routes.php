@@ -10,12 +10,13 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-
+//OLD TWC 2014 STATS
 Route::get('/twc_2014', 'HomeController@showStats');
-Route::post('/add','HomeController@addStats');
 Route::get('/bstats', 'HomeController@showBeatmapStats');
-Route::get('/cool_page', function(){
-    return View::make('tournament/index');
+// END OF OLD STATS
+
+Route::get('/', function(){
+    return View::make('tournament/index'); // index page
 });
 Route::get('/list', array(
     "as" => "list",
@@ -25,12 +26,17 @@ Route::get('/view/{id}', array(
     "as" => "view-specific",
     "uses" => "TournamentsController@View"
 ));
-Route::get('/view_raw/{id}/overview', "TournamentsController@rawOverview");
-Route::post('/edit_raw/{id}/overview', "TournamentsController@editOverview");
-
+Route::get('/view_raw/{id}/overview', array(
+    "uses" => "TournamentsController@rawOverview"
+));
+Route::post('/edit_raw/{id}/overview', array(
+    "uses" => "TournamentsController@editOverview"
+));
 Route::get('/addtourney', array(
     "as" => "addtourney",
     "uses" => "TournamentsController@viewCreate"
 ));
 
-Route::post('/addtourney', "TournamentsController@useCreate");
+Route::post('/addtourney', array(
+    "uses" => "TournamentsController@useCreate"
+));
