@@ -12,13 +12,8 @@
 */
 
 Route::get('/twc_2014', 'HomeController@showStats');
-Route::get('/add', function(){
-       return View::make('add');
-    });
 Route::post('/add','HomeController@addStats');
 Route::get('/bstats', 'HomeController@showBeatmapStats');
-Route::post('/bstats','HomeController@addBeatmapStats');
-
 Route::get('/cool_page', function(){
     return View::make('tournament/index');
 });
