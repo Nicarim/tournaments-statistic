@@ -22,10 +22,11 @@ class TournamentsController extends BaseController {
         return View::make('tournament/view')->with(array(
             'tournament' => $tournament,
             'overview' => $overview,
+            'rawoverview' => Tournament::find($id)->overview
         ));
     }
     public function rawOverview($id){
-        return Tournament::find($id)->overview;
+        return ;
     }
     public function editOverview($id){
         $tournament = Tournament::find($id);

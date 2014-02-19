@@ -22,3 +22,11 @@ b.mania{
     width: 16px;
     height: 16px;
 }
+.nav-borderfix > li > a{
+    border-radius: 0px;
+    border: 0;
+}
+.nav-borderfix > li.active > a, .nav-borderfix > li.active > a:hover{
+    border-radius: 0px;
+    border: 0;
+}

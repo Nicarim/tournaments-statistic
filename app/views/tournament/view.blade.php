@@ -24,7 +24,9 @@
         <div class="tab-pane fade" id="mappools">Something</div>
         <div class="tab-pane fade" id="teams">Something</div>
         <div class="tab-pane fade" id="results">Results/Stats</div>
-        <div class="tab-pane fade" id="settings">Something</div>
+        <div class="tab-pane fade" id="settings">
+            @include('options/settings')
+        </div>
     </div>
 
 </div>
