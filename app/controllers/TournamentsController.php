@@ -21,20 +21,27 @@ class TournamentsController extends BaseController {
         $overview = $markdown->render($tournament->overview);
         return View::make('tournament/view')->with(array(
             'tournament' => $tournament,
-            'overview' => $overview,
-            'rawoverview' => Tournament::find($id)->overview
+            'overview' => $overview
         ));
     }
-    public function rawOverview($id){
-        return ;
-    }
-    public function editOverview($id){
+    public function editSettings($id){
+        $data = array(
+          "prize_first" => Input::get("prizefirst"),
+          "prize_second" => Input::get("prizesecond"),
+          "prize_third" => Input::get("prizethird"),
+          "prize_other" => Input::get("prizeother"),
+          "description" => Input::get("description"),
+          "state" => Input::get("state")
+        );
         $tournament = Tournament::find($id);
-        $tournament->overview = Input::get("overview");
-        $markdown = new Markdown;
-        $output = $markdown->render($tournament->overview);
-        $tournament->save();
-        return $output;
+        $tournament->prize->first = $data['prize_first'];
+        $tournament->prize->second = $data['prize_second'];
+        $tournament->prize->third = $data['prize_third'];
+        $tournament->prize->other = $data['prize_other'];
+        $tournament->state = $data['state'];
+        $tournament->overview = $data['description'];
+        $tournament->push();
+        return Redirect::to('/view/'.$tournament->id);
 
     }
     
@@ -59,7 +66,10 @@ class TournamentsController extends BaseController {
         
      if ($password == "woop"){
      
-     $tourney = Tournament::create($data);
+        $tourney = Tournament::create($data);
+        Prize::create(array(
+            "tournament_id" => $tourney->id
+        ));
      }
      return Redirect::to('/list');
     }   

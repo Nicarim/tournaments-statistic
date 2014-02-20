@@ -26,11 +26,8 @@ Route::get('/view/{id}', array(
     "as" => "view-specific",
     "uses" => "TournamentsController@View"
 ));
-Route::get('/view_raw/{id}/overview', array(
-    "uses" => "TournamentsController@rawOverview"
-));
-Route::post('/edit_raw/{id}/overview', array(
-    "uses" => "TournamentsController@editOverview"
+Route::post('/settings/{id}', array(
+    "uses" => "TournamentsController@editSettings"
 ));
 Route::get('/addtourney', array(
     "as" => "addtourney",

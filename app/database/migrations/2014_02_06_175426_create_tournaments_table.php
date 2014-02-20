@@ -18,8 +18,10 @@ class CreateTournamentsTable extends Migration {
             $table->integer('gamemode');
             $table->string('name');
             $table->string('host');
+            $table->string('creator');
             $table->text('overview');
             $table->integer('slots')->default(0);
+            $table->integer('state')->default(0);
             $table->integer('max_slots');
             $table->softDeletes();
             $table->timestamps();

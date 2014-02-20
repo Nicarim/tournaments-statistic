@@ -19,11 +19,20 @@ class DatabaseSeeder extends Seeder {
 class TournamentsSeeder extends Seeder{
     public function run(){
         DB::table('tournaments')->delete();
-        Tournament::create(array(
+        $tournament = Tournament::create(array(
             "name" => "osu! Taiko World Cup 2014",
             "gamemode" => 1,
             "overview" => "Some markup\n====================\nand some smaller header\n----------------------- \n",
-            "max_slots" => 16
+            "max_slots" => 16,
+        ));
+
+        DB::table('prizes')->delete();
+        Prize::create(array(
+            "tournament_id" => $tournament->id,
+            "first" => "osu!tablet, 6 months of supporter, profile badge",
+            "second" => "2 months of supporter",
+            "third" => "1 months of supporter",
+            "other" => "some consolization prizes"
         ));
     }
 }
