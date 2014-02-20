@@ -13,6 +13,7 @@
     <div class="tab-content">
 
         <div class="tab-pane fade in active" id="overview">
+            <h1><div class="label label-warning">Registration Phase</div></h1>
             <h2>Prizes:</h2>
             <div class="panel panel-default ">
                 <div class="panel-body fixedpaddingpanel">

@@ -21,7 +21,8 @@ class TournamentsController extends BaseController {
         $overview = $markdown->render($tournament->overview);
         return View::make('tournament/view')->with(array(
             'tournament' => $tournament,
-            'overview' => $overview
+            'overview' => $overview,
+            'gamemodecss' => $this->cssGamemode
         ));
     }
     public function editSettings($id){
