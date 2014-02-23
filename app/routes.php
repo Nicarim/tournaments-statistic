@@ -26,7 +26,7 @@ Route::get('/view/{id}', array(
     "as" => "view-specific",
     "uses" => "TournamentsController@View"
 ));
-Route::post('/settings/{id}', array(
+Route::post('/settings/{type}/{id}', array(
     "uses" => "TournamentsController@editSettings"
 ));
 Route::get('/addtourney', array(

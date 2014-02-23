@@ -25,29 +25,42 @@ class TournamentsController extends BaseController {
             'gamemodecss' => $this->cssGamemode
         ));
     }
-    public function editSettings($id){
-        $data = array(
-          "prize_first" => Input::get("prizefirst"),
-          "prize_second" => Input::get("prizesecond"),
-          "prize_third" => Input::get("prizethird"),
-          "prize_other" => Input::get("prizeother"),
-          "description" => Input::get("description"),
-          "state" => Input::get("state")
-        );
+    public function editSettings($type, $id){
         $tournament = Tournament::find($id);
-        $tournament->prize->first = $data['prize_first'];
-        $tournament->prize->second = $data['prize_second'];
-        $tournament->prize->third = $data['prize_third'];
-        $tournament->prize->other = $data['prize_other'];
-        $tournament->state = $data['state'];
-        $tournament->overview = $data['description'];
-        $tournament->push();
-        return Redirect::to('/view/'.$tournament->id);
+        switch($type){
+            case "overview":
+                    $data = array(
+                        "prize_first" => Input::get("prizefirst"),
+                        "prize_second" => Input::get("prizesecond"),
+                        "prize_third" => Input::get("prizethird"),
+                        "prize_other" => Input::get("prizeother"),
+                        "description" => Input::get("description"),
+                        "state" => Input::get("state")
+                    );
+                    $tournament->prize->first = $data['prize_first'];
+                    $tournament->prize->second = $data['prize_second'];
+                    $tournament->prize->third = $data['prize_third'];
+                    $tournament->prize->other = $data['prize_other'];
+                    $tournament->state = $data['state'];
+                    $tournament->overview = $data['description'];
+                    $tournament->push();
+                break;
+            case "stages":
+                $data = array(
+                    "name" => Input::get("stagename"),
+                    "max_players" => Input::get("playersamount"),
+                    "type" => Input::get("stagetype")
+                );
+                $stage = new Stage($data);
+                $tournament->stages()->save($stage);
+                break;
+        }
+        return Redirect::to('/view/'.$tournament->id."#".$type);
 
     }
     
     public function viewCreate(){
-    return View::make('tournament/add');    
+        return View::make('tournament/add');
     }
     
     public function useCreate(){

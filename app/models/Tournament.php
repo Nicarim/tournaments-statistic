@@ -9,5 +9,8 @@ class Tournament extends Eloquent {
     public function prize(){
         return $this->hasOne('Prize');
     }
+    public function stages(){
+        return $this->hasMany('Stage');
+    }
 	public static $rules = array();
 }
