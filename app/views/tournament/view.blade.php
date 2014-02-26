@@ -8,12 +8,11 @@
         <li><a href="#mappools" data-toggle="tab">Map Pools</a></li>
         <li><a href="#teams" data-toggle="tab">Teams</a></li>
         <li><a href="#results" data-toggle="tab">Results/Stats</a></li>
-        <li><a href="#settings" data-toggle="tab">Tournament Settings</a></li>
+        <li><a href="/settings/{{$tournament->id}}">Tournament Settings</a></li>
     </ul>
     <div class="tab-content">
 
         <div class="tab-pane fade in active" id="overview">
-            <h1><div class="label label-warning">Registration Phase</div></h1>
             <h2>Prizes:</h2>
             <div class="panel panel-default ">
                 <div class="panel-body fixedpaddingpanel">
@@ -29,13 +28,11 @@
             {{$overview}}
            </div>
         </div>
+
         <div class="tab-pane fade" id="schedule">Something</div>
         <div class="tab-pane fade" id="mappools">Something</div>
         <div class="tab-pane fade" id="teams">Something</div>
         <div class="tab-pane fade" id="results">Results/Stats</div>
-        <div class="tab-pane fade" id="settings">
-            @include('options/settings')
-        </div>
     </div>
 
 </div>

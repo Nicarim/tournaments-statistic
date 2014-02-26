@@ -25,10 +25,11 @@ class TournamentsController extends BaseController {
             'gamemodecss' => $this->cssGamemode
         ));
     }
-    public function editSettings($type, $id){
-        $tournament = Tournament::find($id);
+    public function editSettings($id, $type){
+
         switch($type){
             case "overview":
+                    $tournament = Tournament::find($id);
                     $data = array(
                         "prize_first" => Input::get("prizefirst"),
                         "prize_second" => Input::get("prizesecond"),
@@ -46,6 +47,7 @@ class TournamentsController extends BaseController {
                     $tournament->push();
                 break;
             case "stages":
+                $tournament = Tournament::find($id);
                 $data = array(
                     "name" => Input::get("stagename"),
                     "max_players" => Input::get("playersamount"),
@@ -54,9 +56,18 @@ class TournamentsController extends BaseController {
                 $stage = new Stage($data);
                 $tournament->stages()->save($stage);
                 break;
+            case "remove_stages":
+                $stage = Stage::destroy($id);
+                return Redirect::to("/settings/".$stage->tournament->id);
         }
-        return Redirect::to('/view/'.$tournament->id."#".$type);
+        return Redirect::back();
 
+    }
+    public function viewSettings($id){
+        $tournament = Tournament::find($id);
+        return View::make('options/settings')->with(array(
+            "tournament" => $tournament
+        ));
     }
     
     public function viewCreate(){
