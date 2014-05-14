@@ -87,7 +87,7 @@
                 @endforeach
             </table>
             <h2>Add new stage:</h2>
-            <form role="form" name="input2" method="post" action="/settings/stages/{{$tournament->id}}">
+            <form role="form" name="input2" method="post" action="/settings/{{$tournament->id}}/stages">
                 <div class="form-group">
                     <label for="stagename">Name of stage:</label>
                     <input class="form-control" type="text" id="stagename" name="stagename" style="width:50%;"/>

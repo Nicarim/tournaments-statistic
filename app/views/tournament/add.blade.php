@@ -15,16 +15,16 @@
         </div>
         <div class="form-group"> Gamemode
             <label class="checkbox">
-                <input type="radio" value="1" name="gametype"> osu! Standard
+                <input type="radio" value="0" name="gametype"> osu! Standard
             </label>
             <label class="checkbox">
-                <input type="radio" value="2" name="gametype"> Taiko
+                <input type="radio" value="1" name="gametype"> Taiko
             </label>
             <label class="checkbox">
-                <input type="radio" value="3" name="gametype"> Catch The Beat
+                <input type="radio" value="2" name="gametype"> Catch The Beat
             </label>
             <label class="checkbox">
-                <input type="radio" value="4" name="gametype"> osu!mania
+                <input type="radio" value="3" name="gametype"> osu!mania
             </label>
         </div>
         <div class="form-group">
