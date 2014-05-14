@@ -32,7 +32,11 @@ class TournamentsSeeder extends Seeder{
             "first" => "osu!tablet, 6 months of supporter, profile badge",
             "second" => "2 months of supporter",
             "third" => "1 months of supporter",
-            "other" => "some consolization prizes"
         ));
+        DB:table('users')->delete();
+        User::create(array(
+               "username" => "Marcin",
+               "password" => Hash::make("randompassword")
+            ));
     }
 }
