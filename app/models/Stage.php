@@ -7,4 +7,7 @@ class Stage extends Eloquent {
     public function tournament(){
         return $this->belongsTo("Tourmnament");
     }
+    public function group(){
+        return $this->hasMany("Group");
+    }
 }
