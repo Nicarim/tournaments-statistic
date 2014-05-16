@@ -75,27 +75,35 @@ class TournamentsController extends BaseController {
     }
     
     public function useCreate(){
-    /* return View::make('tournament/add'); */
-    $data = array(
-            "gamemode" => Input::get('gametype'),        
-            "name" => Input::get('name'),
-            "host" => Input::get('host'),
-            "overview" => " ",
-            "slots" => 0,
-            "max_slots" => 16,
-            "deleted_at" => NULL,
-            "created_at" => time(),
-            "updated_at" => time(),
-        );
-     $password = Input::get('password');
-        
-     if ($password == "woop"){
-     
-        $tourney = Tournament::create($data);
-        Prize::create(array(
-            "tournament_id" => $tourney->id
-        ));
-     }
-     return Redirect::to('/list');
-    }   
+        $data = array(
+                "gamemode" => Input::get('gametype'),
+                "name" => Input::get('name'),
+                "host" => Input::get('host'),
+                "overview" => " ",
+                "slots" => 0,
+                "max_slots" => 16,
+                "deleted_at" => NULL,
+                "created_at" => time(),
+                "updated_at" => time(),
+            );
+        $password = Input::get('password');
+
+        if ($password == "woop"){
+            $tourney = Tournament::create($data);
+            Prize::create(array(
+                    "tournament_id" => $tourney->id
+                ));
+        }
+        return Redirect::to('/list');
+    }
+    public function login($login, $password){
+        $session = Auth::attempt(array(
+               "username" => $login,
+               "password" => $password
+            ));
+        if ($session)
+            return Redirect::back();
+        else
+            return "damn, you hackey";
+    }
 }

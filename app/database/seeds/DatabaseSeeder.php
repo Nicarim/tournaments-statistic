@@ -33,7 +33,7 @@ class TournamentsSeeder extends Seeder{
             "second" => "2 months of supporter",
             "third" => "1 months of supporter",
         ));
-        DB:table('users')->delete();
+        DB::table('users')->delete();
         User::create(array(
                "username" => "Marcin",
                "password" => Hash::make("randompassword")

@@ -26,9 +26,7 @@ Route::get('/view/{id}', array(
     "as" => "view-specific",
     "uses" => "TournamentsController@View"
 ));
-Route::post('/settings/{id}/{type}', array(
-    "uses" => "TournamentsController@editSettings"
-));
+
 Route::get('/addtourney', array(
     "as" => "addtourney",
     "uses" => "TournamentsController@viewCreate"
@@ -39,5 +37,15 @@ Route::post('/addtourney', array(
 ));
 Route::get('/settings/{id}/{type?}', array(
     "uses" => "TournamentsController@viewSettings",
-    "as" => "settings"
+    "as" => "settings",
+    "before" => "auth"
 ));
+Route::post('/settings/{id}/{type}', array(
+        "uses" => "TournamentsController@editSettings",
+        "before" => "auth"
+    ));
+Route::get('/login/{login}/{password}', array(
+       "uses" => "TournamentsController@login",
+       "as" => "login",
+       "before" => "guest"
+    ));
