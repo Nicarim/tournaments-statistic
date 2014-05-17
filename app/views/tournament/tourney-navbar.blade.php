@@ -7,5 +7,7 @@
     <li><a href="#teams" data-toggle="tab">Teams</a></li>
     -->
     <li class="{{Route::currentRouteName() == 'results' ? 'active' : ''}}"><a href="/results/view/{{$tournament->id}}">Results</a></li>
-    <li><a href="/settings/{{$tournament->id}}">Tournament Settings</a></li>
+    @if (Auth::check())
+        <li><a href="/settings/{{$tournament->id}}">Tournament Settings</a></li>
+    @endif
 </ul>
