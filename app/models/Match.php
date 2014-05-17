@@ -22,5 +22,11 @@ class Match extends Eloquent{
     public function Stage(){
         return $this->belongsTo("Stage");
     }
+    public function wTeam(){
+        return $this->hasOne("Team", "id", "winning_team_id");
+    }
+    public function lTeam(){
+        return $this->hasOne("Team", "id", "losing_team_id");
+    }
 
 } 

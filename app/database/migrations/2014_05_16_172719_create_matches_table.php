@@ -21,6 +21,7 @@ class CreateMatchesTable extends Migration {
             $table->integer("losing_team_id");
             $table->integer("room_id");
             $table->integer("games_count");
+            $table->float("score_difference")->default(0);
 			$table->timestamps();
 		});
 	}

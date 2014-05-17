@@ -9,4 +9,7 @@ class Group extends Eloquent{
     public function teams(){
         return $this->hasMany("Team");
     }
+    public function Matches(){
+        return $this->hasMany("Match");
+    }
 }

@@ -10,4 +10,7 @@ class Stage extends Eloquent {
     public function group(){
         return $this->hasMany("Group");
     }
+    public function Matches(){
+        return $this->hasMany("Match");
+    }
 }
