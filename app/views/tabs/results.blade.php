@@ -26,6 +26,7 @@
             <table class="table table-bordered">
                 <tr>
                     <th>Name</th>
+                    <th>Matches Played</th>
                     <th>Matches Won</th>
                     <th>Matches Lost</th>
                     <th>Games Won</th>
@@ -35,6 +36,7 @@
                 @foreach($group->teams as $team)
                 <tr>
                     <td>{{$team->name}}</td>
+                    <td>{{$team->matches_played()}}</td>
                     <td>{{$team->matches_won}}</td>
                     <td>{{$team->matches_lost}}</td>
                     <td>{{$team->games_won}}</td>

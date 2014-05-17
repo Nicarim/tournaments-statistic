@@ -79,7 +79,7 @@ class TournamentsController extends BaseController {
                 $tournament = Tournament::find($id);
                 $key = "459fc9f4860d2966cd935c9ecd66d7caf5bf9f13";
                 $data = array(
-                    "room_id" => Input::get("match_id"),
+                    "room_id" => Input::get("matchid"),
                     "group_id" => Input::get("group_id"),
                     "stage_id" => Input::get("stage_id"),
                 );
@@ -87,7 +87,7 @@ class TournamentsController extends BaseController {
                 $requesturl = "https://osu.ppy.sh/api/get_match?k=".$key."&mp=".$data['room_id'];
                 $request = file_get_contents($requesturl);
                 $json = json_decode($request);
-                $match = Match::firstOrNew($data);
+                $match = Match::firstOrCreate($data);
                 preg_match_all("/\(([^)]+)\)/", $json->match->name, $nameRegex);
                 $teamAName = $nameRegex[1][0];
                 $teamBName = $nameRegex[1][1];
