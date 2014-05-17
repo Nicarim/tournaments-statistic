@@ -95,6 +95,7 @@ class TournamentsController extends BaseController {
                 $teamBModel = Team::where("name", $teamBName)->where("group_id", $data['group_id'])->first();
                 $teamAwinCount = 0;
                 $teamBWinCount = 0;
+                $sdr = 0;
                 foreach ($json->games as $key => $game)
                 {
                     if (in_array($key, $skipIds))
@@ -120,7 +121,8 @@ class TournamentsController extends BaseController {
                         $winningTeam = $teamBModel;
                         $teamBWinCount += 1;
                     }
-
+                    $beatmapModel = Beatmap::where("beatmap_id", $beatmapId)->where("stage_id", $data['stage_id'])->first();
+                    $difference = abs($teamAScore - $teamBScore) / $beatmapModel->max_score;
                     $gameModel = Game::firstOrNew(array(
                             "match_id" => $match->id,
                             "teamA_id" => $teamAModel->id,
@@ -128,8 +130,10 @@ class TournamentsController extends BaseController {
                             "teamA_score" => $teamAScore,
                             "teamB_score" => $teamBScore,
                             "winning_team_id" => $winningTeam->id,
+                            "score_difference" => $difference,
                             "beatmap_id" => $beatmapId
                         ));
+                    $sdr += $difference;
                     $gameModel->save();
                 }
                 if ($teamAwinCount > $teamBWinCount)
@@ -139,6 +143,8 @@ class TournamentsController extends BaseController {
                     $match->games_count = $teamAwinCount + $teamBWinCount;
                     $teamAModel->matches_won += 1;
                     $teamBModel->matches_lost += 1;
+                    $teamAModel->score_difference += $sdr;
+                    $teamBModel->score_difference -= $sdr;
                 }
                 else
                 {
@@ -147,11 +153,14 @@ class TournamentsController extends BaseController {
                     $match->games_count = $teamAwinCount + $teamBWinCount;
                     $teamAModel->matches_lost += 1;
                     $teamBModel->matches_won += 1;
+                    $teamAModel->score_difference -= $sdr;
+                    $teamBModel->score_difference += $sdr;
                 }
                 $teamAModel->games_won += $teamAwinCount;
                 $teamBModel->games_lost += $teamAwinCount;
                 $teamAModel->games_lost += $teamBWinCount;
                 $teamBModel->games_won += $teamBWinCount;
+                $match->score_difference = $sdr;
                 $match->save();
                 $teamAModel->save();
                 $teamBModel->save();
@@ -168,7 +177,6 @@ class TournamentsController extends BaseController {
             "tournament" => $tournament
         ));
     }
-    
     public function viewCreate(){
         return View::make('tournament/add');
     }

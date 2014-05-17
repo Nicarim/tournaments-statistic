@@ -9,4 +9,4 @@
 class Beatmap extends Eloquent{
     protected $table = "beatmaps";
     protected $guarded = array("id");
-} 
+}

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Team.php" afterPath="$PROJECT_DIR$/app/models/Team.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Beatmap.php" afterPath="$PROJECT_DIR$/app/models/Beatmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Stage.php" afterPath="$PROJECT_DIR$/app/models/Stage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TournamentsController.php" afterPath="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tabs/results.blade.php" afterPath="$PROJECT_DIR$/app/views/tabs/results.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -28,33 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Group.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Group.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="70" selection-end="103" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Match.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Match.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="28" selection-start="555" selection-end="555" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Player.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Player.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="179" selection-end="179" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Prize.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Prize.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,7 +64,34 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="22" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.10526316" vertical-offset="2611" max-vertical-offset="3689">
+            <state line="160" column="58" selection-start="7285" selection-end="7285" vertical-scroll-proportion="1.7562863" vertical-offset="1812" max-vertical-offset="3825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Beatmap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_05_17_124151_create_beatmaps_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="-9.115385" vertical-offset="205" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Stage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="41" selection-start="447" selection-end="447" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -99,7 +100,7 @@
       <file leaf-file-name="2014_05_16_172719_create_matches_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="56" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.8076925" vertical-offset="171" max-vertical-offset="765">
+            <state line="37" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="-16.961538" vertical-offset="171" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -174,14 +175,16 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_172418_create_teams_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Group.php" />
-        <option value="$PROJECT_DIR$/app/models/Stage.php" />
         <option value="$PROJECT_DIR$/app/models/Match.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_173749_create_games_table.php" />
         <option value="$PROJECT_DIR$/app/models/Game.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
         <option value="$PROJECT_DIR$/app/models/Team.php" />
         <option value="$PROJECT_DIR$/app/views/tabs/results.blade.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php" />
+        <option value="$PROJECT_DIR$/app/models/Stage.php" />
+        <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
       </list>
     </option>
   </component>
@@ -692,7 +695,11 @@
       <created>1400329263871</created>
       <updated>1400329263871</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Show all played matches at results screen.">
+      <created>1400330439966</created>
+      <updated>1400330439966</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -734,7 +741,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added dynamic buttons by Loctav" />
     <MESSAGE value="Added match history (stupid padding)" />
     <MESSAGE value="More stylish match history" />
     <MESSAGE value="You can now add statistics via /add (ask for password, hacking fag)" />
@@ -759,7 +765,8 @@
     <MESSAGE value="Show basic results of each group and team." />
     <MESSAGE value="Fully functional result view." />
     <MESSAGE value="Add handling of match retrieve from API." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add handling of match retrieve from API." />
+    <MESSAGE value="Show all played matches at results screen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Show all played matches at results screen." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -767,11 +774,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="421" selection-end="421" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="748" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/tests/TestCase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="903" />
@@ -954,15 +956,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/twc_2014.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="258" column="99" selection-start="15634" selection-end="15808" vertical-scroll-proportion="-6.9615383" vertical-offset="4205" max-vertical-offset="6120">
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Stage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="250" selection-end="250" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
@@ -1004,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="2" selection-start="195" selection-end="195" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Game.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="31" selection-start="147" selection-end="147" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="391">
@@ -1042,13 +1028,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/Prize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="627" selection-end="627" vertical-scroll-proportion="-7.8076925" vertical-offset="171" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
@@ -1086,9 +1065,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Stage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="41" selection-start="447" selection-end="447" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Beatmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="194" selection-end="194" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="-16.961538" vertical-offset="171" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="-9.115385" vertical-offset="205" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="22" selection-start="6889" selection-end="6889" vertical-scroll-proportion="0.10526316" vertical-offset="2611" max-vertical-offset="3689">
+        <state line="160" column="58" selection-start="7285" selection-end="7285" vertical-scroll-proportion="1.7562863" vertical-offset="1812" max-vertical-offset="3825">
           <folding />
         </state>
       </provider>

@@ -13,4 +13,7 @@ class Stage extends Eloquent {
     public function Matches(){
         return $this->hasMany("Match");
     }
+    public function beatmaps(){
+        return $this->hasMany("Beatmap");
+    }
 }
