@@ -22,6 +22,7 @@ class CreateGamesTable extends Migration {
             $table->integer("teamB_score");
             $table->integer("winning_team_id");
             $table->integer("beatmap_id");
+            $table->float("score_difference");
 			$table->timestamps();
 		});
 	}

@@ -3,9 +3,26 @@
 <div class="container">
     @include('tournament/tourney-navbar')
     <div class="tab-content">
+
         <h2>{{$tournament->groupStages->first()->name}}</h2>
         @foreach($tournament->groupStages->first()->group as $group)
+
             <h3>{{$group->name}}</h3>
+            @if (Auth::check())
+            <form class="form-inline" role="form" name="match" method="post" action="/settings/{{$tournament->id}}/add_match">
+                <div class="form-group">
+                    <label class="sr-only" for="matchid">Add Match: </label>
+                    <input class="form-control" id="matchid" name="matchid" placeholder="Enter Match ID" />
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="skipped">Skip Index: </label>
+                    <input class="form-control" id="skipped" name="skipid" placeholder="Skipping IDs (use comma)" />
+                </div>
+                <input type="hidden" name="group_id" value="{{$group->id}}" />
+                <input type="hidden" name="stage_id" value="{{$tournament->groupStages->first()->id}}" />
+                <button class="btn btn-default" type="submit">Add</button>
+            </form>
+            @endif
             <table class="table table-bordered">
                 <tr>
                     <th>Name</th>
