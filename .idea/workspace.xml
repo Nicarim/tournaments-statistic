@@ -29,7 +29,7 @@
       <file leaf-file-name="results.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="137" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.62081784" vertical-offset="601" max-vertical-offset="1258">
+            <state line="57" column="43" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.68401486" vertical-offset="601" max-vertical-offset="1258">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -722,7 +722,11 @@
       <created>1400342654748</created>
       <updated>1400342654748</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fix remove button.">
+      <created>1400342745923</created>
+      <updated>1400342745923</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -764,7 +768,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added seeder for tournaments&#10;&#10;Added dynamic list of tournaments&#10;&#10;Added content to overview form database" />
     <MESSAGE value="FIXED DAMN THING FOR LOOSING TEAM RESULTS" />
     <MESSAGE value="Added win by default type." />
     <MESSAGE value="Added win by default type.&#10;" />
@@ -789,7 +792,8 @@
     <MESSAGE value="Add template for beatmap handling" />
     <MESSAGE value="Logic for importing beatmap from api." />
     <MESSAGE value="Add remove match logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add remove match logic." />
+    <MESSAGE value="Fix remove button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix remove button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1119,7 +1123,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="137" selection-start="2947" selection-end="2947" vertical-scroll-proportion="0.62081784" vertical-offset="601" max-vertical-offset="1258">
+        <state line="57" column="43" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.68401486" vertical-offset="601" max-vertical-offset="1258">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />

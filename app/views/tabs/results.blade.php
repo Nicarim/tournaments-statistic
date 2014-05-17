@@ -55,7 +55,7 @@
                                 @if (Auth::check())
                                 <form action="/settings/{{$tournament->id}}/remove_match" method="post" role="form" style="display:inline">
                                     <input type="hidden" name="match_id" value="{{$match->id}}"/>
-                                    <a href="#" type="submit">Remove</a>
+                                    <button type="submit">Remove</button>
                                 </form>
                                 @endif
                             </a>
