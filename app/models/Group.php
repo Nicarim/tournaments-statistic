@@ -7,7 +7,7 @@ class Group extends Eloquent{
         return $this->belongsTo("Stage");
     }
     public function teams(){
-        return $this->hasMany("Team");
+        return $this->hasMany("Team")->orderBy("matches_won", "desc")->orderBy("games_won", "desc")->orderBy("score_difference", "desc");
     }
     public function Matches(){
         return $this->hasMany("Match");
