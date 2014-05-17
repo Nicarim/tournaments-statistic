@@ -173,6 +173,28 @@ class TournamentsController extends BaseController {
                 $teamAModel->save();
                 $teamBModel->save();
                 break;
+            case "remove_match":
+                $data = array(
+                    "match_id" => Input::get("match_id")
+                );
+                $match = Match::find($data['match_id']);
+                $teamAModel = Team::find($match->winning_team_id);
+                $teamBModel = Team::find($match->losing_team_id);
+                $games = Game::where("match_id", $match->id)->get();
+                $teamAModel->matches_won -= 1;
+                $teamBModel->matches_lost -= 1;
+                $teamAModel->score_difference -= $match->score_difference;
+                $teamBModel->score_difference += $match->score_difference;
+                foreach($games as $game)
+                {
+                    if ($game->winning_team_id == $teamAModel->id)
+                        $teamAModel->games_won -= 1;
+                    elseif ($game->winning_team_id == $teamBModel->id)
+                        $teamBModel->games_won -= 1;
+                    $game->delete();
+                }
+                $match->delete();
+                break;
             case "beatmaps":
                 $data = array(
                     "beatmap_id" => Input::get("beatmapid"),

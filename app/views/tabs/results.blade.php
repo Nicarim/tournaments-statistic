@@ -51,7 +51,13 @@
                         @foreach($group->Matches as $match)
                         <li>
                             <a href="https://osu.ppy.sh/mp/{{$match->room_id}}">
-                                <span style="color:green">{{$match->wTeam->name}}</span> vs <span style="color:red">{{$match->lTeam->name}}</span> - SDR <b>{{$match->score_difference}}</b>
+                                <span style="color:green">{{$match->wTeam->name}} </span> vs <span style="color:red">{{$match->lTeam->name}}</span> - SDR <b>{{$match->score_difference}}</b>
+                                @if (Auth::check())
+                                <form action="/settings/{{$tournament->id}}/remove_match" method="post" role="form">
+                                    <input type="hidden" name="match_id" value="{{$match->id}}"/>
+                                    <a type="submit">Remove</a>
+                                </form>
+                                @endif
                             </a>
                         </li>
                         @endforeach
