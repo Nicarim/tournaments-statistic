@@ -188,9 +188,15 @@ class TournamentsController extends BaseController {
                 foreach($games as $game)
                 {
                     if ($game->winning_team_id == $teamAModel->id)
+                    {
                         $teamAModel->games_won -= 1;
+                        $teamBModel->games_lost -= 1;
+                    }
                     elseif ($game->winning_team_id == $teamBModel->id)
+                    {
                         $teamBModel->games_won -= 1;
+                        $teamAModel->games_lost -= 1;
+                    }
                     $game->delete();
                 }
                 $match->delete();

@@ -44,7 +44,7 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="36" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.70817846" vertical-offset="2968" max-vertical-offset="4641">
+            <state line="192" column="51" selection-start="8768" selection-end="8768" vertical-scroll-proportion="0.6133829" vertical-offset="2934" max-vertical-offset="4743">
               <folding />
             </state>
           </provider>
@@ -730,7 +730,11 @@
       <created>1400342803937</created>
       <updated>1400342803937</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Save models when deleting match.">
+      <created>1400342872051</created>
+      <updated>1400342872051</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -772,7 +776,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added win by default type." />
     <MESSAGE value="Added win by default type.&#10;" />
     <MESSAGE value="Further development of tournaments page." />
     <MESSAGE value="Remove not finished tabs." />
@@ -797,7 +800,8 @@
     <MESSAGE value="Add remove match logic." />
     <MESSAGE value="Fix remove button." />
     <MESSAGE value="Change remove to button tag." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change remove to button tag." />
+    <MESSAGE value="Save models when deleting match." />
+    <option name="LAST_COMMIT_MESSAGE" value="Save models when deleting match." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1133,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="36" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.70817846" vertical-offset="2968" max-vertical-offset="4641">
+        <state line="192" column="51" selection-start="8768" selection-end="8768" vertical-scroll-proportion="0.6133829" vertical-offset="2934" max-vertical-offset="4743">
           <folding />
         </state>
       </provider>
