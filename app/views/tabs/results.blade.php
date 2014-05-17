@@ -58,8 +58,8 @@
                     <th>Games Lost</th>
                     <th>SDR</th>
                 </tr>
-                @foreach($group->teams as $team)
-                <tr>
+                @foreach($group->teams as $key => $team)
+                <tr {{$key > 1 ? "style='background-color:#9c9c9c;'" : ""}}>
                     <td>{{$team->name}}</td>
                     <td>{{$team->matches_played()}}</td>
                     <td>{{$team->matches_won}}</td>
@@ -73,7 +73,7 @@
             @if ($group->Matches->count() != 0)
                 <div class="container small" style="width:40%; background-color: #d0d0d0">
                     <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 15px;">
-                        @foreach($group->Matches as $match)
+                        @foreach($group->Matches as $key => $match)
                         <li>
                             <a href="https://osu.ppy.sh/mp/{{$match->room_id}}">
                                 <span style="color:green">{{$match->wTeam->name}} </span> vs <span style="color:red">{{$match->lTeam->name}}</span> - SDR <b>{{number_format($match->score_difference, 2)}}</b>
