@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Beatmap.php" afterPath="$PROJECT_DIR$/app/models/Beatmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Stage.php" afterPath="$PROJECT_DIR$/app/models/Stage.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TournamentsController.php" afterPath="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -64,7 +61,7 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="58" selection-start="7285" selection-end="7285" vertical-scroll-proportion="1.7562863" vertical-offset="1812" max-vertical-offset="3825">
+            <state line="97" column="22" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.8027079" vertical-offset="1234" max-vertical-offset="3961">
               <folding />
             </state>
           </provider>
@@ -699,7 +696,11 @@
       <created>1400330439966</created>
       <updated>1400330439966</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Add SDR calculation logic">
+      <created>1400331305700</created>
+      <updated>1400331305700</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,7 +742,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Added match history (stupid padding)" />
     <MESSAGE value="More stylish match history" />
     <MESSAGE value="You can now add statistics via /add (ask for password, hacking fag)" />
     <MESSAGE value="Added 2 new dependencies (make sure to do &quot;composer update&quot; before trying to work!)&#10;&#10;Added tournaments migration&#10;&#10;" />
@@ -766,7 +766,8 @@
     <MESSAGE value="Fully functional result view." />
     <MESSAGE value="Add handling of match retrieve from API." />
     <MESSAGE value="Show all played matches at results screen." />
-    <option name="LAST_COMMIT_MESSAGE" value="Show all played matches at results screen." />
+    <MESSAGE value="Add SDR calculation logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add SDR calculation logic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1095,7 +1096,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="58" selection-start="7285" selection-end="7285" vertical-scroll-proportion="1.7562863" vertical-offset="1812" max-vertical-offset="3825">
+        <state line="97" column="22" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.8027079" vertical-offset="1234" max-vertical-offset="3961">
           <folding />
         </state>
       </provider>

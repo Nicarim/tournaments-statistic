@@ -91,8 +91,16 @@ class TournamentsController extends BaseController {
                 preg_match_all("/\(([^)]+)\)/", $json->match->name, $nameRegex);
                 $teamAName = $nameRegex[1][0];
                 $teamBName = $nameRegex[1][1];
-                $teamAModel = Team::where("name", $teamAName)->where("group_id", $data['group_id'])->first();
-                $teamBModel = Team::where("name", $teamBName)->where("group_id", $data['group_id'])->first();
+                $teamAModel = Team::firstOrCreate(array(
+                    "name" => $teamAName,
+                    "group_id" => $data['group_id']
+                ));
+                $teamBModel = Team::firstOrCreate(array(
+                        "name" => $teamBName,
+                        "group_id" => $data['group_id']
+                    ));
+                //$teamAModel = Team::where("name", $teamAName)->where("group_id", $data['group_id'])->first();
+                //$teamBModel = Team::where("name", $teamBName)->where("group_id", $data['group_id'])->first();
                 $teamAwinCount = 0;
                 $teamBWinCount = 0;
                 $sdr = 0;
