@@ -22,6 +22,31 @@
                 <input type="hidden" name="stage_id" value="{{$tournament->groupStages->first()->id}}" />
                 <button class="btn btn-default" type="submit">Add</button>
             </form>
+            <form class="form-inline" role="form" name="match" method="post" action="/settings/{{$tournament->id}}/default_win">
+                <div class="form-group">
+                    <label for="winningteam" class="sr-only">Winning Team</label>
+                    <select id="winningteam" name="winningteam" class="form-control">
+                        @foreach($group->teams as $team)
+                            <option value="{{$team->id}}">{{$team->name}}</option>
+                        @endforeach
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="losingteam" class="sr-only">Losing Team</label>
+                    <select id="losingteam" name="losingteam" class="form-control">
+                        @foreach($group->teams as $team)
+                            <option value="{{$team->id}}">{{$team->name}}</option>
+                        @endforeach
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="match_id">Match ID (if any):</label>
+                    <input class="form-control" name="match_id" id="match_id" placeholder="Match ID if any"/>
+                </div>
+                <input type="hidden" name="group_id" value="{{$group->id}}" />
+                <input type="hidden" name="stage_id" value="{{$tournament->groupStages->first()->id}}" />
+                <button class="btn btn-default" type="submit">Win</button>
+            </form>
             @endif
             <table class="table table-bordered">
                 <tr>
