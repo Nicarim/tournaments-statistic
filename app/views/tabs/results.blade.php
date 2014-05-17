@@ -1,1 +1,8 @@
-<div class="tab-pane fade" id="results">Results/Stats</div>
+@extends("../master")
+@include("tournament/navbar")
+<div class="container">
+    @include('tournament/tourney-navbar')
+    <div class="tab-content">
+        Results
+    </div>
+</div>

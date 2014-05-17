@@ -23,7 +23,7 @@ Route::get('/list', array(
     "uses" => "TournamentsController@Lists"
 ));
 Route::get('/view/{id}', array(
-    "as" => "view-specific",
+    "as" => "tourney",
     "uses" => "TournamentsController@View"
 ));
 
@@ -49,3 +49,20 @@ Route::get('/login/{login}/{password}', array(
        "as" => "login",
        "before" => "guest"
     ));
+Route::group(array(
+        "prefix" => "results"
+    ), function(){
+        Route::get('/view/{id}/{stageId?}/{groupId?}', array(
+               "uses" => "TournamentsController@viewResults",
+               "as" => "results"
+            ));
+        Route::get('/admin/{id}', array(
+               "uses" => "TournamentsController@viewAdminResults",
+               "before" => "auth"
+            ));
+        Route::post('/admin/{id}/{type}', array(
+               "uses" => "TournamentController@postResults",
+               "before" => "auth"
+            ));
+
+    });

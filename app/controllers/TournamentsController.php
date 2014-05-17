@@ -56,9 +56,18 @@ class TournamentsController extends BaseController {
                 $stage = new Stage($data);
                 $tournament->stages()->save($stage);
                 break;
+            case "groups":
+                $tournament = Tournament::find($id);
+                $data = array(
+                    "stage_id" => Input::get('whichstage'),
+                    "name" => Input::get('groupname')
+                );
+                $group = Group::firstOrNew($data);
+                $group->save();
+                break;
             case "remove_stages":
                 $stage = Stage::destroy($id);
-                return Redirect::to("/settings/".$stage->tournament->id);
+                break;
         }
         return Redirect::back();
 
@@ -95,6 +104,9 @@ class TournamentsController extends BaseController {
                 ));
         }
         return Redirect::to('/list');
+    }
+    public function viewResults($id){
+        return View::make("tabs/results")->with("tournament", Tournament::find($id));
     }
     public function login($login, $password){
         $session = Auth::attempt(array(
