@@ -194,6 +194,8 @@ class TournamentsController extends BaseController {
                     $game->delete();
                 }
                 $match->delete();
+                $teamAModel->save();
+                $teamBModel->save();
                 break;
             case "beatmaps":
                 $data = array(

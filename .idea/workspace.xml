@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da73058f-99fb-46a8-9cc8-15f2c801c0ec" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/tabs/results.blade.php" afterPath="$PROJECT_DIR$/app/views/tabs/results.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/TournamentsController.php" afterPath="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tournaments.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="results.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="results.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="43" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.68401486" vertical-offset="601" max-vertical-offset="1258">
+            <state line="52" column="62" selection-start="2549" selection-end="2549" vertical-scroll-proportion="-10.884615" vertical-offset="601" max-vertical-offset="1258">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TournamentsController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TournamentsController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="27" selection-start="8987" selection-end="8987" vertical-scroll-proportion="-9.423077" vertical-offset="3121" max-vertical-offset="4607">
+            <state line="197" column="36" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.70817846" vertical-offset="2968" max-vertical-offset="4641">
               <folding />
             </state>
           </provider>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
         <option value="$PROJECT_DIR$/app/views/tabs/options/beatmaps.blade.php" />
         <option value="$PROJECT_DIR$/app/views/options/settings.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
         <option value="$PROJECT_DIR$/app/views/tabs/results.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
       </list>
     </option>
   </component>
@@ -726,7 +726,11 @@
       <created>1400342745923</created>
       <updated>1400342745923</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Change remove to button tag.">
+      <created>1400342803937</created>
+      <updated>1400342803937</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -768,7 +772,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="FIXED DAMN THING FOR LOOSING TEAM RESULTS" />
     <MESSAGE value="Added win by default type." />
     <MESSAGE value="Added win by default type.&#10;" />
     <MESSAGE value="Further development of tournaments page." />
@@ -793,7 +796,8 @@
     <MESSAGE value="Logic for importing beatmap from api." />
     <MESSAGE value="Add remove match logic." />
     <MESSAGE value="Fix remove button." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix remove button." />
+    <MESSAGE value="Change remove to button tag." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change remove to button tag." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1114,16 +1118,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="27" selection-start="8987" selection-end="8987" vertical-scroll-proportion="-9.423077" vertical-offset="3121" max-vertical-offset="4607">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="43" selection-start="3091" selection-end="3091" vertical-scroll-proportion="0.68401486" vertical-offset="601" max-vertical-offset="1258">
+        <state line="52" column="62" selection-start="2549" selection-end="2549" vertical-scroll-proportion="-10.884615" vertical-offset="601" max-vertical-offset="1258">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -1131,6 +1128,13 @@
             <element signature="n#style#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#form#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="36" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.70817846" vertical-offset="2968" max-vertical-offset="4641">
+          <folding />
         </state>
       </provider>
     </entry>
