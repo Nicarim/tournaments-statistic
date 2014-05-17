@@ -20,9 +20,9 @@ class TournamentsSeeder extends Seeder{
     public function run(){
         DB::table('tournaments')->delete();
         $tournament = Tournament::create(array(
-            "name" => "osu! Taiko World Cup 2014",
+            "name" => "osu! Catch the Beat World Cup 2014",
             "gamemode" => 1,
-            "overview" => "Some markup\n====================\nand some smaller header\n----------------------- \n",
+            "overview" => "Click results to see results (?)\n====================",
             "max_slots" => 16,
         ));
 
