@@ -19,7 +19,7 @@ class CreateGamesTable extends Migration {
             $table->integer("teamA_id");
             $table->integer("teamA_score");
             $table->integer("teamB_id");
-            $table->integer("teamA_score");
+            $table->integer("teamB_score");
             $table->integer("winning_team_id");
             $table->integer("beatmap_id");
 			$table->timestamps();
