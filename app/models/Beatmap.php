@@ -9,4 +9,7 @@
 class Beatmap extends Eloquent{
     protected $table = "beatmaps";
     protected $guarded = array("id");
+    public function fullName(){
+        return $this->artist." - ".$this->title." [".$this->diff."] by ".$this->creator;
+    }
 }
