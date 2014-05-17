@@ -26,7 +26,6 @@ class TournamentsController extends BaseController {
         ));
     }
     public function editSettings($id, $type){
-
         switch($type){
             case "overview":
                     $tournament = Tournament::find($id);
@@ -65,12 +64,22 @@ class TournamentsController extends BaseController {
                 $group = Group::firstOrNew($data);
                 $group->save();
                 break;
+            case "teams":
+                $tournament = Tournament::find($id);
+                $group_id = Group::find(Input::get('whichgroup'))->Stage->id;
+                $data = array(
+                    "name" => Input::get('teamname'),
+                    "group_id" => Input::get('whichgroup'),
+                    "stage_id" => $group_id,
+                );
+                $team = Team::firstOrNew($data);
+                $team->save();
+                break;
             case "remove_stages":
                 $stage = Stage::destroy($id);
                 break;
         }
         return Redirect::back();
-
     }
     public function viewSettings($id){
         $tournament = Tournament::find($id);

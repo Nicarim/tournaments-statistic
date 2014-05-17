@@ -17,11 +17,11 @@ class CreateTeamsTable extends Migration {
 			$table->increments('id');
             $table->integer("group_id");
             $table->integer("stage_id");
-            $table->integer("matches_won");
-            $table->integer("matches_lost");
-            $table->integer("games_won");
-            $table->integer("games_lost");
-            $table->float("score_difference");
+            $table->integer("matches_won")->default(0);
+            $table->integer("matches_lost")->default(0);
+            $table->integer("games_won")->default(0);
+            $table->integer("games_lost")->default(0);
+            $table->float("score_difference")->default(0);
             $table->string("name");
 			$table->timestamps();
 		});

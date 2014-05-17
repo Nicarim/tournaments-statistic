@@ -6,6 +6,11 @@
             <ul>
                 @foreach($stage->group as $group)
                 <li>{{$group->name}}</li>
+                <ul>
+                    @foreach($group->teams as $team)
+                    <li>{{$team->name}}</li>
+                    @endforeach
+                </ul>
                 @endforeach
             </ul>
         </div>
@@ -19,6 +24,22 @@
             <select id="whichstage" name="whichstage" class="form-control" style="width:50%;">
                 @foreach($tournament->groupStages as $stage)
                 <option value="{{$stage->id}}">{{$stage->name}}</option>
+                @endforeach
+            </select>
+        </div>
+        <button class="btn btn-success" type="submit">Add!</button>
+    </form>
+    <h2>Add Teams to group</h2>
+    <form role="form" name="teams" method="post" action="/settings/{{$tournament->id}}/teams">
+        <div class="form-group">
+            <label for="teamname">Team Name</label>
+            <input class="form-control" type="text" id="teamname" name="teamname" style="width:50%;" />
+            <label for="whichgroup">Which Group</label>
+            <select id="whichgroup" name="whichgroup" class="form-control" style="width:50%;">
+                @foreach($tournament->groupStages as $stage)
+                    @foreach($stage->group as $group)
+                        <option value="{{$group->id}}">{{$group->stage->name}}: {{$group->name}}</option>
+                    @endforeach
                 @endforeach
             </select>
         </div>

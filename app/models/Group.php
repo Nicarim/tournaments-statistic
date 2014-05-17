@@ -6,4 +6,7 @@ class Group extends Eloquent{
     public function Stage(){
         return $this->belongsTo("Stage");
     }
+    public function teams(){
+        return $this->hasMany("Team");
+    }
 }
