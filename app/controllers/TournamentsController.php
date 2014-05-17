@@ -26,6 +26,7 @@ class TournamentsController extends BaseController {
         ));
     }
     public function editSettings($id, $type){
+        $key = "459fc9f4860d2966cd935c9ecd66d7caf5bf9f13";
         switch($type){
             case "overview":
                     $tournament = Tournament::find($id);
@@ -77,7 +78,6 @@ class TournamentsController extends BaseController {
                 break;
             case "add_match":
                 $tournament = Tournament::find($id);
-                $key = "459fc9f4860d2966cd935c9ecd66d7caf5bf9f13";
                 $data = array(
                     "room_id" => Input::get("matchid"),
                     "group_id" => Input::get("group_id"),
@@ -172,6 +172,22 @@ class TournamentsController extends BaseController {
                 $match->save();
                 $teamAModel->save();
                 $teamBModel->save();
+                break;
+            case "beatmaps":
+                $data = array(
+                    "beatmap_id" => Input::get("beatmapid"),
+                    "stage_id" => Input::get("whichstage"),
+                    "max_score" => Input::get("beatmapsscore"),
+                );
+                $requesturl = "https://osu.ppy.sh/api/get_beatmaps?k=".$key."&b=".$data['beatmap_id'];
+                $request = file_get_contents($requesturl);
+                $json = json_decode($request)[0];
+                $beatmapModel = Beatmap::firstOrNew($data);
+                $beatmapModel->creator = $json->creator;
+                $beatmapModel->title = $json->title;
+                $beatmapModel->artist = $json->artist;
+                $beatmapModel->diff = $json->version;
+                $beatmapModel->save();
                 break;
             case "remove_stages":
                 $stage = Stage::destroy($id);
