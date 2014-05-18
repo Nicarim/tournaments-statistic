@@ -59,7 +59,7 @@
                     <th>SDR</th>
                 </tr>
                 @foreach($group->teams as $key => $team)
-                <tr {{$key > 1 ? "class='danger'" : ""}}>
+                <tr class='{{$key > 1 ? "danger" : "success"}}'>
                     <td>{{$team->name}}</td>
                     <td>{{$team->matches_played()}}</td>
                     <td>{{$team->matches_won}}</td>
