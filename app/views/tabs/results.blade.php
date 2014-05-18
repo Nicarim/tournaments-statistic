@@ -45,7 +45,8 @@
                 </div>
                 <input type="hidden" name="group_id" value="{{$group->id}}" />
                 <input type="hidden" name="stage_id" value="{{$tournament->groupStages->first()->id}}" />
-                <button class="btn btn-default" type="submit">Win</button>
+                <button class="btn btn-default" type="submit" name="event" value="win">Win</button>
+                <button class="btn btn-default" type="submit" name="event" value="loose">Double Loose</button>
             </form>
             @endif
             <table class="table table-bordered">
@@ -76,7 +77,7 @@
                         @foreach($group->Matches as $key => $match)
                         <li>
                             <a href="https://osu.ppy.sh/mp/{{$match->room_id}}">
-                                <span style="color:green">{{$match->wTeam->name}} </span> vs <span style="color:red">{{$match->lTeam->name}}</span> - SDR <b>{{number_format($match->score_difference, 2)}}</b>
+                                <span style="{{$match->loose_type == 0 ? 'color:green' : 'color:red'}}">{{$match->wTeam->name}} </span> vs <span style="color:red">{{$match->lTeam->name}}</span> - SDR <b>{{number_format($match->score_difference, 2)}}</b>
                                 @if (Auth::check())
                                 <form action="/settings/{{$tournament->id}}/remove_match" method="post" role="form" style="display:inline">
                                     <input type="hidden" name="match_id" value="{{$match->id}}"/>

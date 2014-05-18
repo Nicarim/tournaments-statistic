@@ -212,16 +212,26 @@ class TournamentsController extends BaseController {
                        "winning_team_id" => $data['winningteam'],
                        "losing_team_id" => $data['losingteam'],
                        "room_id" => $data['match_id'],
-                       "score_difference" => 2.5
+                       "score_difference" => 2.5,
+                       "loose_type" => $data['event'] == "win" ? 0 : 1
                     ));
                 $match->save();
                 $teamAModel = Team::find($data['winningteam']);
                 $teamBModel = Team::find($data['losingteam']);
-                $teamAModel->games_won += 4;
+                if ($data['event'] == "win")
+                {
+                    $teamAModel->games_won += 4;
+                    $teamAModel->matches_won += 1;
+                    $teamAModel->score_difference += 2.5;
+                }
+                elseif ($data['event'] == "loose")
+                {
+                    $teamAModel->games_lost += 4;
+                    $teamAModel->matches_lost += 1;
+                    $teamAModel->score_difference -= 2.5;
+                }
                 $teamBModel->games_lost += 4;
-                $teamAModel->matches_won += 1;
                 $teamBModel->matches_lost += 1;
-                $teamAModel->score_difference += 2.5;
                 $teamBModel->score_difference -= 2.5;
                 $teamAModel->save();
                 $teamBModel->save();

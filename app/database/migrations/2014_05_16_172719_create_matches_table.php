@@ -22,6 +22,7 @@ class CreateMatchesTable extends Migration {
             $table->integer("room_id");
             $table->integer("games_count");
             $table->float("score_difference")->default(0);
+            $table->integer("loose_type")->default(0); //0 for normal loose (one team wins / one looses) and 1 for double loose (both team looses)
 			$table->timestamps();
 		});
 	}
