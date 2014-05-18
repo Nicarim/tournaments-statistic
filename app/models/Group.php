@@ -10,6 +10,6 @@ class Group extends Eloquent{
         return $this->hasMany("Team")->orderBy("matches_won", "desc")->orderBy("games_won", "desc")->orderBy("score_difference", "desc");
     }
     public function Matches(){
-        return $this->hasMany("Match");
+        return $this->hasMany("Match")->orderBy("updated_at", "desc");
     }
 }
