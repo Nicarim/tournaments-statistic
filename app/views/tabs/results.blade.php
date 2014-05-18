@@ -71,8 +71,8 @@
                 @endforeach
             </table>
             @if ($group->Matches->count() != 0)
-                <div class="container small" style="width:40%; background-color: #d0d0d0">
-                    <ul class="list-unstyled" style="line-height:1; margin-top:10px; font-size: 15px;">
+                <div class="container small" style="width:40%; background-color: #d0d0d0; border-radius:12px;">
+                    <ul class="list-unstyled" style="padding: 10px;margin-top:10px; font-size: 15px;background-color: whitesmoke;">
                         @foreach($group->Matches as $key => $match)
                         <li>
                             <a href="https://osu.ppy.sh/mp/{{$match->room_id}}">
