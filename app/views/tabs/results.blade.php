@@ -59,7 +59,7 @@
                     <th>SDR</th>
                 </tr>
                 @foreach($group->teams as $key => $team)
-                <tr {{$key > 1 ? "style='background-color:#9c9c9c;'" : ""}}>
+                <tr {{$key > 1 ? "class='danger'" : ""}}>
                     <td>{{$team->name}}</td>
                     <td>{{$team->matches_played()}}</td>
                     <td>{{$team->matches_won}}</td>
