@@ -7,7 +7,7 @@
         <h2>{{$tournament->groupStages->first()->name}}</h2>
         @foreach($tournament->groupStages->first()->group as $group)
 
-            <h3>{{$group->name}}</h3>
+            <h3 style="">{{$group->name}}</h3>
             @if (Auth::check())
             <form class="form-inline" role="form" name="match" method="post" action="/settings/{{$tournament->id}}/add_match">
                 <div class="form-group">
@@ -60,7 +60,7 @@
                     <th>SDR</th>
                 </tr>
                 @foreach($group->teams as $key => $team)
-                <tr class='{{$key > 1 ? "danger" : "success"}}'>
+                <tr class='{{$key > 3 ? "danger" : "success"}}'>
                     <td>{{$team->name}}</td>
                     <td>{{$team->matches_played()}}</td>
                     <td>{{$team->matches_won}}</td>
