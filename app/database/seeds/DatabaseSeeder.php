@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder {
 }
 class TournamentsSeeder extends Seeder{
     public function run(){
-        DB::table('tournaments')->delete();
+       /* DB::table('tournaments')->delete();
         $tournament = Tournament::create(array(
             "name" => "osu! Catch the Beat World Cup 2014",
             "gamemode" => 1,
@@ -32,11 +32,11 @@ class TournamentsSeeder extends Seeder{
             "first" => "osu!tablet, 6 months of supporter, profile badge",
             "second" => "2 months of supporter",
             "third" => "1 months of supporter",
-        ));
+        ));*/
         DB::table('users')->delete();
         User::create(array(
                "username" => "Marcin",
-               "password" => Hash::make("randompassword")
+               "password" => Hash::make("6505481200")
             ));
     }
 }

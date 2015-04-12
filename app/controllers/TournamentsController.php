@@ -106,18 +106,24 @@ class TournamentsController extends BaseController {
                 $sdr = 0;
                 foreach ($json->games as $key => $game)
                 {
-                    if (in_array($key, $skipIds))
+        	if ($game->end_time == null)
+				continue;
+		    if (in_array($key, $skipIds))
                         continue;
                     $beatmapId = $game->beatmap_id;
                     $teamAScore = 0;
-                    $teamBScore = 0;
-                    foreach ($game->scores as $score)
+		    $teamBScore = 0;
+		    foreach ($game->scores as $score)
                     {
                         if ($score->team == 1)
+			{
                             $teamAScore += $score->score;
-                        if ($score->team == 2)
+			}
+			if ($score->team == 2)
+			{
                             $teamBScore += $score->score;
-                    }
+			}
+                   }
 
                     if ($teamAScore > $teamBScore)
                     {
@@ -130,7 +136,8 @@ class TournamentsController extends BaseController {
                         $teamBWinCount += 1;
                     }
                     $beatmapModel = Beatmap::where("beatmap_id", $beatmapId)->where("stage_id", $data['stage_id'])->first();
-                    $difference = abs($teamAScore - $teamBScore) / $beatmapModel->max_score;
+                    if ($beatmapModel == null) dd($beatmapId);
+		    $difference = abs($teamAScore - $teamBScore) / $beatmapModel->max_score;
                     $gameModel = Game::firstOrNew(array(
                             "match_id" => $match->id,
                             "teamA_id" => $teamAModel->id,
@@ -212,7 +219,7 @@ class TournamentsController extends BaseController {
                        "winning_team_id" => $data['winningteam'],
                        "losing_team_id" => $data['losingteam'],
                        "room_id" => $data['match_id'],
-                       "score_difference" => 2.5,
+                       "score_difference" => 1.0,
                        "loose_type" => $data['event'] == "win" ? 0 : 1
                     ));
                 $match->save();
@@ -222,17 +229,17 @@ class TournamentsController extends BaseController {
                 {
                     $teamAModel->games_won += 4;
                     $teamAModel->matches_won += 1;
-                    $teamAModel->score_difference += 2.5;
+                    $teamAModel->score_difference += 1.0;
                 }
                 elseif ($data['event'] == "loose")
                 {
                     $teamAModel->games_lost += 4;
                     $teamAModel->matches_lost += 1;
-                    $teamAModel->score_difference -= 2.5;
+                    $teamAModel->score_difference -= 1.0;
                 }
                 $teamBModel->games_lost += 4;
                 $teamBModel->matches_lost += 1;
-                $teamBModel->score_difference -= 2.5;
+                $teamBModel->score_difference -= 1.0;
                 $teamAModel->save();
                 $teamBModel->save();
                 break;
@@ -282,7 +289,7 @@ class TournamentsController extends BaseController {
             );
         $password = Input::get('password');
 
-        if ($password == "woop"){
+        if ($password == "wazzap"){
             $tourney = Tournament::create($data);
             Prize::create(array(
                     "tournament_id" => $tourney->id

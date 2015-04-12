@@ -1,5 +1,6 @@
 @extends("../master")
 @include("tournament/navbar")
+<title> {{$tournament->name}} </title>
 <div class="container">
     @include('tournament/tourney-navbar')
     <div class="tab-content">
@@ -7,7 +8,7 @@
         <h2>{{$tournament->groupStages->first()->name}}</h2>
         @foreach($tournament->groupStages->first()->group as $group)
 
-            <h3 style="">{{$group->name}}</h3>
+            <h3>{{$group->name}}</h3>
             @if (Auth::check())
             <form class="form-inline" role="form" name="match" method="post" action="/settings/{{$tournament->id}}/add_match">
                 <div class="form-group">

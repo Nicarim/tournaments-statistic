@@ -29,7 +29,7 @@
       <file leaf-file-name="Group.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Group.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="453" selection-end="453" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
+            <state line="12" column="68" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -38,12 +38,8 @@
       <file leaf-file-name="results.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="109" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.37174723" vertical-offset="1041" max-vertical-offset="1683">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="9" column="23" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +47,16 @@
       <file leaf-file-name="TournamentsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="211" column="33" selection-start="9509" selection-end="9509" vertical-scroll-proportion="0.0" vertical-offset="3408" max-vertical-offset="5134">
+            <state line="222" column="19" selection-start="10047" selection-end="10047" vertical-scroll-proportion="0.0" vertical-offset="3527" max-vertical-offset="5304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2014_05_16_172719_create_matches_table.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="146" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -61,15 +66,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/tabs/overview.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="10" column="27" selection-start="880" selection-end="880" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tournament/list.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -96,7 +92,7 @@
       <file leaf-file-name="navbar.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="6" selection-start="435" selection-end="435" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+            <state line="10" column="6" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
               <folding>
                 <marker date="1400350637355" expanded="true" signature="64:434" placeholder="..." />
                 <marker date="1400350637355" expanded="true" signature="92:427" placeholder="..." />
@@ -109,7 +105,7 @@
       <file leaf-file-name="master.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+            <state line="20" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -176,7 +172,6 @@
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_172418_create_teams_table.php" />
         <option value="$PROJECT_DIR$/app/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/models/Match.php" />
-        <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php" />
         <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_173749_create_games_table.php" />
         <option value="$PROJECT_DIR$/app/models/Game.php" />
         <option value="$PROJECT_DIR$/app/models/Team.php" />
@@ -185,11 +180,12 @@
         <option value="$PROJECT_DIR$/app/models/Beatmap.php" />
         <option value="$PROJECT_DIR$/app/views/tabs/options/beatmaps.blade.php" />
         <option value="$PROJECT_DIR$/app/views/options/settings.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/tourney-navbar.blade.php" />
         <option value="$PROJECT_DIR$/app/views/tournament/navbar.blade.php" />
         <option value="$PROJECT_DIR$/app/views/master.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Group.php" />
+        <option value="$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php" />
+        <option value="$PROJECT_DIR$/app/controllers/TournamentsController.php" />
         <option value="$PROJECT_DIR$/app/views/tabs/results.blade.php" />
       </list>
     </option>
@@ -198,7 +194,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1378" />
     <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -227,10 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files" />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,6 +465,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -498,7 +494,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="982" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SkinsDB" />
     <property name="SearchEverywhereHistory" value="(" />
   </component>
   <component name="RunManager">
@@ -773,20 +769,27 @@
       <created>1400403598938</created>
       <updated>1400403598938</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Results table improvements.">
+      <created>1400404100757</created>
+      <updated>1400404100757</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implement double loose button.">
+      <created>1400414301842</created>
+      <updated>1400414301842</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35196376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35681817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -794,11 +797,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3221154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -815,8 +819,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Fix Typo in model's name." />
-    <MESSAGE value="Add basic handling for groups (creation)" />
     <MESSAGE value="Implement basic adding team to group." />
     <MESSAGE value="Fix seeder to refer to CtB tournament." />
     <MESSAGE value="Show basic results of each group and team." />
@@ -840,7 +842,9 @@
     <MESSAGE value="Table's design fix." />
     <MESSAGE value="Order matches by descending value of updated_at row." />
     <MESSAGE value="Some more design fixes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Some more design fixes." />
+    <MESSAGE value="Results table improvements." />
+    <MESSAGE value="Implement double loose button." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement double loose button." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1008,11 +1012,6 @@
         <state line="51" column="0" selection-start="2052" selection-end="2052" vertical-scroll-proportion="-17.115385" vertical-offset="422" max-vertical-offset="986" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="5" selection-start="781" selection-end="781" vertical-scroll-proportion="-16.961538" vertical-offset="171" max-vertical-offset="765" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_17_124151_create_beatmaps_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="782" />
@@ -1050,23 +1049,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="33" selection-start="9509" selection-end="9509" vertical-scroll-proportion="0.0" vertical-offset="3408" max-vertical-offset="5134">
-          <folding />
-        </state>
+        <state line="13" column="1" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="23" column="6" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/tourney-navbar.blade.php">
@@ -1104,7 +1092,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tournament/navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="6" selection-start="435" selection-end="435" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
+        <state line="10" column="6" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="272">
           <folding>
             <marker date="1400350637355" expanded="true" signature="64:434" placeholder="..." />
             <marker date="1400350637355" expanded="true" signature="92:427" placeholder="..." />
@@ -1115,26 +1103,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+        <state line="20" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Group.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="453" selection-end="453" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="340">
+        <state line="12" column="68" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/database/migrations/2014_05_16_172719_create_matches_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="146" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/TournamentsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="19" selection-start="10047" selection-end="10047" vertical-scroll-proportion="0.0" vertical-offset="3527" max-vertical-offset="5304">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tabs/results.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="109" selection-start="3922" selection-end="3922" vertical-scroll-proportion="0.37174723" vertical-offset="1041" max-vertical-offset="1683">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="9" column="23" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1700">
+          <folding />
         </state>
       </provider>
     </entry>

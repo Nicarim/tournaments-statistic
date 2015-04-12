@@ -54,9 +54,9 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'tournaments',
-			'username'  => 'root',
+			'host'      => 'db0',
+			'database'  => 'marcin_tournaments',
+			'username'  => 'marcin',
 			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
